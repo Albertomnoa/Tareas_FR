@@ -50,8 +50,11 @@
 \section{Introducción}
 Cuando una información se manifiesta mediante objetos y sus relaciones, visualizarla puede ser el primer paso para resolver problemas de diversa índole. 
 La modelación y teoría de grafos constituyen la forma más común de modelar información relacional, y su visualización una forma de representar la información \cite {tesis}.\linebreak
+
 Sin embargo el modelado y acomodo de un grafo que refleje situaciones de la vida real resulta complejo, es por ello que se han desarrollado algoritmos dedicados a perfeccionar el trazado de los mismos según el tipo problema y grafo que representen, llamados algoritmos de diseño o \textit{layout}.\linebreak
+
 Los algoritmos de diseño son los que devuelven una lista de posiciones para los nodos según diversos parámetros definidos para cada algoritmo, buscando cumplir con ciertos criterios estéticos como son: minimizar cruces entre aristas, maximizar el ángulo entre aristas adyacentes, maximizar el ángulo entre aristas que se cruzan, mostrar simetría, distribución uniforme de los vértices y longitud uniforme de aristas \cite {tesis}.\linebreak
+
 Entre los algoritmos de diseño destacan los siguientes:
 
 \begin{itemize}
@@ -67,6 +70,7 @@ Entre los algoritmos de diseño destacan los siguientes:
 
 \section{ Grafo simple no dirigido acíclico}
 Se pueden encontrar varias aplicaciones a la modelación de un grafo simple no dirigido acíclico, una de las más claras son los árboles, “el árbol (árbol libre) que es un grafo no dirigido, conexo y acíclico. Un árbol también puede definirse como un grafo no dirigido en elque hay exactamente un camino entre todo par de vértices" \cite{gf1}. \linebreak
+
 Un ejemplo de usos de árboles es en topología de red la de árbol, en esta topología los nodos de la red están ubicados en forma de árbol. esta conexión es similar a muchas redes en estrella interconectadas con la diferencia de no poseer un nodo central, en cambio posee un nodo troncal desde el cual se ramifican el resto de los nodos como se muestra en la figura 1 que es una pequeña representación con solo ocho nodos de la red que posee la UEB Rolando Peréz Gollanes entidad dedicada al sacrificio y procesamiento de aves.\linebreak 
 
 \textbf{Algorito de diseño}.\linebreak
@@ -110,6 +114,7 @@ Después de probar con varios de los algoritmos de diseño existentes, se decide
 \newpage
 \section{Grafo simple no dirigido reflexivo}
 Una de las aplicaciones de este tipo de grafo es en la modelación de comportamientos de elementos sociales en la vida real.\linebreak
+
 Por ejemplo, en un estudio sobre el comportamiento sexual de un grupo de adolescentes con edades comprendida entre 15 y 18 años, se representar las relaciones sexuales consentidas (aristas) que existen entre los individuos (vértices) del grupo, así como la satisfacción, para así saber tendencias por edades, posibles esquemas de propagación de enfermedades y promiscuidad entre otros factores del interés de los sexólogos. Este ejemplo se muestra en el grafo de la figura 3.\linebreak
 
 \textbf{Algorito de diseño}.\linebreak
@@ -124,7 +129,7 @@ Después de probar con varios de los algoritmos de diseño existentes, se decide
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=0.7]{Graf3_kamada_kawai_layout.eps}\\
-\caption{Grafo simple no dirigido reflexivo,donde los vértices rojos representan los nodos donde están las aristas reflexivas}
+\caption{Grafo simple no dirigido reflexivo,donde los vértices rojos representan los nodos donde están las aristas reflexivas.}
 \end{center}
 \end{figure}
 \newpage
@@ -136,6 +141,7 @@ Encontraos entre las aplicaciones de los grafos dirigidos o dígrafos acíclico 
 
 \end{itemize}	
 En la figura 4 se muestra un ejemplo de red bayesiana (topología de red para el cáncer de pulmón), donde C (cáncer), Con (Contaminación), F (Fumador), D (disnea), Rx (rayos-x) son los vértices y sus relaciones son las aristas.\linebreak 
+
 \textbf{Algorito de diseño}.\linebreak
 Después de probar con varios de los algoritmos de diseño existentes, se decide usar para la representación del grafo de la figura 4 el algoritmo \textit{shell layout}, dado que este algoritmo ubica los nodos en círculos concéntricos a un nodo dado, es la mejor opción para representar este ejemplo.
 
@@ -148,7 +154,7 @@ Después de probar con varios de los algoritmos de diseño existentes, se decide
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=0.7]{Graf4_shell_layout.eps}\\
-\caption{Grafo simple dirigido acíclico}
+\caption{Grafo simple dirigido acíclico.}
 \end{center}
 \end{figure}
 \newpage
@@ -180,6 +186,7 @@ Después de probar con varios de los algoritmos de diseño existentes, se decide
 \section{Grafo simple dirigido reflexivo}
 
 Las aplicaciones de estos grafos van desde la representación del funcionamiento de las páginas web, el modelado de una empresa de servicio que brinda el mismo tanto a sus clientes como a ella misma, hasta representar un grafo que modele la comprobación de una red de computadoras.\linebreak
+
 Por ejemplo, suponiendo que se está comprobando la conectividad entre los nodos (equipos) de una red de computadoras, es decir que un nodo puede dar ping a cualquier otro nodo, significa que dicho nodo está conectado con el resto, además se debe asegurar que el mismo nodo pueda recibir un auto ping, si esto no ocurre existe un problema de conectividad. La figura 6 muestra dicho ejemplo.\linebreak
 
 \textbf{Algorito de diseño}.\linebreak
@@ -226,7 +233,7 @@ Después de probar con varios de los algoritmos de diseño existentes, se decide
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=0.7]{Graf8_spectral_layout.eps}\\
-\caption{Multigrafo no dirigido cíclico, donde las aristas de diferentes colores representan la existencia de las llamadas con distinta duración}
+\caption{Multigrafo no dirigido cíclico, donde las aristas de diferentes colores representan la existencia de las llamadas con distinta duración.}
 \end{center}
 \end{figure}
 \section{Multigrafo no dirigido reflexivo}
