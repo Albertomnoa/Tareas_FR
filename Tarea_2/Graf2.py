@@ -19,7 +19,7 @@ lista=['Dr.FL','Dra.AA','Dra.YR','Dr.RR','Dra.IM','Dra.AS','Dr.VB','Dra.ES'],['D
 #
 #posicion=nx.random_layout(A, center=None, dim=2)
 #
-posicion=nx.circular_layout(A, scale=0.8, center=None, dim=2)
+posicion=nx.circular_layout(A, scale=0.5, center=None, dim=2)
 #
 #posicion=nx.spectral_layout(A, weight='weight', scale=1, center=None, dim=2)
 
