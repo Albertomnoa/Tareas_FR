@@ -5,7 +5,7 @@
 \usepackage{subfigure}
 \usepackage{graphicx}
 \usepackage{url}
-
+\usepackage{multirow}
 \usepackage{color}
 
 
@@ -93,6 +93,44 @@ En este otro fragmento se muestra donde se ejecutan las funciones y se guarda el
  \begin{center}
 \lstinputlisting[language=Python, firstline=146, lastline=165]{Corer_Algoritmos.py}
 \end{center}
+
+\begin{table}[ht]
+	\centering
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\textbf{Algoritmos} & \textbf{Nodos} & \textbf{Media} \\
+			
+			\hline
+			 make max clique graph & 800 & 13.563634 \\
+			 make max clique graph & 400 & 8.1612773 \\
+			 make max clique graph & 640 & 11.440034 \\
+			 make max clique graph & 500 & 4.9734789 \\
+			 make max clique graph & 710 & 5.7414766 \\
+			 betweenness centrality & 800 & 47.346500 \\
+			 betweenness centrality & 400 & 15.314375 \\
+			 betweenness centrality & 640 & 30.711309 \\
+			 betweenness centrality & 500 & 17.162814 \\
+			 betweenness centrality & 710 & 31.422583 \\
+			 greedy color & 800 & 2.615292\\
+			 greedy color & 400 & 1.612627 \\
+			 greedy color & 640 & 2.203329 \\
+			 greedy color & 500 & 1.609072 \\
+			 greedy color & 710 & 2.115973 \\
+			 maximal matching & 800 & 0.990775 \\
+			 maximal matching & 400 & 0.787178 \\
+			 maximal matching & 640 & 0.909580 \\
+			 maximal matching & 500 & 0.588539 \\
+			 maximal matching & 710 & 0.684729 \\
+			 dfs tree & 800 & 4.931849\\
+			 dfs tree & 400 & 2.897395 \\
+			 dfs tree & 640 & 4.367618 \\
+			 dfs tree & 500 & 2.912410 \\
+			 dfs tree & 710 & 4.185530 \\
+			\hline
+		\end{tabular}
+	\caption{Tabla de valores capturados}
+	\label{tab:una-tablita}
+\end{table}
 
 
 \newpage
