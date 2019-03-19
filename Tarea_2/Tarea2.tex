@@ -5,7 +5,7 @@
 
 \usepackage{graphicx}
 \usepackage{url}
-
+\usepackage{subcaption}
 \usepackage{color}
 
 
@@ -85,11 +85,19 @@ Después de probar con varios de los algoritmos de diseño existentes, se decide
 \begin{center}
 \lstinputlisting[language=Python]{Graf1.py}
 \end{center}
-\begin{figure}[ht]
-\begin{center}
-\includegraphics[scale=0.7]{Graf1_spring_layout.eps}
+\begin{figure}[h]
+
+\begin{subfigure}{0.5\textwidth}
+\includegraphics[scale=0.4]{Graf1_spring_layout.eps} 
+\caption{spring layout}
+\end{subfigure}
+
+\begin{subfigure}{0.5\textwidth}
+\includegraphics[scale=0.4]{Graf1_random_layout.eps} 
+\caption{random layout}
+\end{subfigure}
+
 \caption{Grafo simple no dirigido acíclico, donde las líneas discontinuas representan los cables de fibra óptica y los líneas continuas los cables UTP.}
-\end{center}
 \end{figure}
 
 \newpage
@@ -107,7 +115,7 @@ Después de probar con varios de los algoritmos de diseño existentes, se decide
 \begin{center}
 \lstinputlisting[language=Python]{Graf2.py}
 \end{center}
-\begin{figure}[ht]
+\begin{figure}[h]
 \begin{center}
 \includegraphics[scale=0.7]{Graf2_circular_layout.eps}\\
 \caption{Grafo simple no dirigido cíclico, donde los vértices representan los diferentes doctores y las aristas la colaboración entre ellos.}

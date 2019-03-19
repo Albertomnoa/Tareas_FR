@@ -14,6 +14,8 @@ A.add_edge('Marta','Fernando')
 A.add_edge('Yanet','Ana')
 A.add_edge('Marta','Ana')
 
+
+
 posicion=nx.spring_layout(A)
 
 nx.draw_networkx_nodes(A,posicion,
