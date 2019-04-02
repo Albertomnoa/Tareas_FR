@@ -55,9 +55,9 @@
 
 \section{Algoritmos generadores de grafos.}
 
-Gracias a la versatilidad de Los grafos como modelo de representación de datos, los procesos aleatorios de generación de grafos también son relevantes en aplicaciones que van desde la física, biología a la sociología\cite{Nobari} .
+Gracias a la versatilidad de Los grafos como modelo de representación de datos, los procesos aleatorios de generación de grafos también son relevantes en aplicaciones que van desde la física, biología a la sociología \cite{Nobari} .
 
-Para realizar la tarea se seleccionaron tres algoritmos generadores de grafos de la biblioteca de networkx, con el objetivo de crear los grafos con pesos con distribución normal (como se muestra en la figura \ref{fig1}de la página \pageref{fig1}) a los que se le aplicaran los algoritmos de flujo máximo para realizar los experimentos requeridos. Los tres algoritmos escogidos son de generación aleatorias.
+Para realizar la tarea se seleccionaron tres algoritmos generadores de grafos de la biblioteca de networkx, con el objetivo de crear los grafos con pesos con distribución normal (como se muestra en la figura \ref{fig1 }de la página \pageref{fig1}) a los que se le aplicaran los algoritmos de flujo máximo para realizar los experimentos requeridos. Los tres algoritmos escogidos son de generación aleatorias.
  
 Los algoritmos escogidos fueron los siguientes:
 
@@ -96,14 +96,14 @@ En la librería de networkx encontramos varios algoritmos con los que podemos at
 
 Los algoritmos escogidos fueron los siguientes:
 \begin{itemize}
-  \item\textit{Shortest augmenting path} (es uno de los enfoques más clásicos para la máxima coincidencia y los problemas de flujo máximo. Sorprendentemente, aunque esta idea es una de las técnicas más básicas, está lejos de ser completamente entendida. Es más fácil hablar de ello introduciendo el problema de emparejamiento bipartito en línea\cite{Bosek2018}. Este algoritmo encuentra el flujo máximo de un solo producto utilizando la ruta de aumento más corto y devuelve la red residual resultante después de calcular el flujo máximo).   
+  \item\textit{Shortest augmenting path} (es uno de los enfoques más clásicos para la máxima coincidencia y los problemas de flujo máximo. Sorprendentemente, aunque esta idea es una de las técnicas más básicas, está lejos de ser completamente entendida. Es más fácil hablar de ello introduciendo el problema de emparejamiento bipartito en línea \cite{Bosek2018}. Este algoritmo encuentra el flujo máximo de un solo producto utilizando la ruta de aumento más corto y devuelve la red residual resultante después de calcular el flujo máximo).   
    \item\textit{maximum flow} (Encuentra la ruta por la cual pasa la máxima cantidad de flujo, recibe como parámetros un grafo $G$, una fuente $f$, un sumidero $s$ y además una capacidad que de no tenerla, se considera que el borde tiene una capacidad infinita. Se puede aplicar en grafos tanto dirigidos como no dirigidos.) \cite{mf}.
 	\item\textit{Preflow push} (encuentra un flujo máximo de un solo producto utilizando el algoritmo de empuje previo al flujo de la etiqueta más alta. Esta función devuelve la red residual resultante después de calcular el flujo máximo. Este algoritmo tiene un tiempo de ejecución de $ O(n^{2}\sqrt{m})$ para $n$ vértices y $m$ aristas.) \cite{gc}.
 \end{itemize}
 \section{Generación de datos.}
 Con el objetivo de realizar las mediciones de los tiempos de ejecución de los algoritmos de flujo máximo seleccionados se desarrolló el siguiente código.
 
-En primer lugar, se crea una función ($Algoritmo_FM()$) que recibe como parámetros el algoritmo de flujo máximo ($algoritmoF$) que se va a utilizar, el grafo al que se le aplicara el algoritmo($Graf$), la fuente ($fuente$) y sumidero ($sumidero$). Al llamar esta función se genera con cada ejecución los datos que son guardados en un \textit{data frame} del cual se muestra un fragmentó en el cuadro \ref{tab:addlabel} de la página \pageref{tab:addlabel}.
+En primer lugar, se crea una función ($Algoritmo_FM()$) que recibe como parámetros el algoritmo de flujo máximo ($algoritmoF$) que se va a utilizar, el grafo al que se le aplicara el algoritmo ($Graf$), la fuente ($fuente$) y sumidero ($sumidero$). Al llamar esta función se genera con cada ejecución los datos que son guardados en un \textit{data frame} del cual se muestra un fragmentó en el cuadro \ref{tab:addlabel} de la página \pageref{tab:addlabel}.
 
 \begin{center}
 \lstinputlisting[language=Python, firstline=13, lastline=35]{Generar_datos.py}
@@ -149,10 +149,10 @@ Con los datos recopilado de las ejecuciones de los tres algoritmos de flujo máx
 \begin{center}
 \lstinputlisting[language=Python, firstline=12, lastline=62]{Analisis_datos.py}
 \end{center}
-\subsection{Análisis de varianza(ANOVA).}
+\subsection{Análisis de varianza (ANOVA).}
 El análisis de varianza (ANOVA) es la técnica central en el análisis de datos experimentales. La idea general de esta técnica es separar la variación total en las partes con las que contribuye cada fuente de variación en el experimento. En el caso de los diseños completamente al azar se separan la variabilidad debida a los tratamientos y la debida al error. Cuando la primera predomina sobre la segunda, es cuando se concluye que las medias son diferentes. Cuando los tratamientos no dominan contribuyen igual o menos que el error, por lo que se concluye que las medias son iguales \cite{ade}.
 
-Para analizar si los diferentes factores (algoritmo generador de grafo, algoritmo de flujo máximo, numero de vértices y densidad del grafo)influían en la variable dependiente \textit{tiempo de ejecución} se realizó un ANOVA de un factor para cada caso. 
+Para analizar si los diferentes factores (algoritmo generador de grafo, algoritmo de flujo máximo, numero de vértices y densidad del grafo) influían en la variable dependiente \textit{tiempo de ejecución} se realizó un ANOVA de un factor para cada caso. 
 
 \subsubsection{Influencia del algoritmo generador de grafos en el tiempo de ejecución.}
 El siguiente cuadro muestra el resultado de la aplicación del ANOVA.
@@ -174,7 +174,7 @@ El siguiente cuadro muestra el resultado de la aplicación del ANOVA.
 \end{table}%
 En el cuadro \ref{tab:t2} se muestra que no existen diferencia entre las medianas de los grupos de factores ya que el $p-unc$ es mayor que $0.05$ por lo que se acepta la hipótesis de que el tipo de generador no influye en el \textit{tiempo de ejecución}. Esto se puede observar en la figura \ref{fig4} de la página \pageref{fig4}. 
 
-
+\newpage
 \begin{center}
 \begin{figure}[htbp]
 \includegraphics[scale=0.6]{boxplotgeneradorgrafo.eps}
@@ -204,7 +204,7 @@ En el cuadro \ref{tab:t3} se muestra que no existen diferencia entre las mediana
 \begin{figure}[htbp]
 \includegraphics[scale=0.6]{boxplotalgoritmofm.eps}
 \caption{Diagrama de caja y bigotes que relaciona los tiempos de ejecución con los algoritmos de flujo máximo.}
-\label{fig4}
+\label{fig5}
 \end{figure}
 \end{center}
 \newpage
@@ -237,7 +237,7 @@ En el cuadro \ref{tab:t4} se muestra que existen grandes diferencia entre las me
 % Table generated by Excel2LaTeX from sheet 'Tukeyvertices'
 \begin{table}[htbp]
   \centering
-  \caption{Tukey, influencia del número de vértices en el tiempo de ejecución.Add caption}
+  \caption{Tukey, influencia del número de vértices en el tiempo de ejecución.}
     \begin{tabular}{rrrrrl}
     \toprule
     \multicolumn{1}{l}{\textit{\textbf{group1}}} & \multicolumn{1}{l}{\textit{\textbf{group2}}} & \multicolumn{1}{l}{\textit{\textbf{meandiff}}} & \multicolumn{1}{l}{\textit{\textbf{lower}}} & \multicolumn{1}{l}{\textit{\textbf{upper}}} & \textit{\textbf{reject}} \\
@@ -279,6 +279,7 @@ En el caso del factor densidad se hizo una categorización por rangos para hacer
 \end{figure}
 \end{center}
 El siguiente cuadro muestra el resultado de la aplicación del ANOVA.
+
 % Table generated by Excel2LaTeX from sheet 'ANOVAdensidad'
 \begin{table}[htbp]
   \centering
@@ -325,7 +326,7 @@ En el cuadro \ref{tab:t6} se puede observar que en dos de los tres casos se rech
 \label{fig9}
 \end{figure}
 \end{center}
-\subsubsection{Influencia de los cuatro factores(algoritmo generador de grafo, algoritmo de flujo máximo, numero de vértices y densidad del grafo) en el tiempo de ejecución.}
+\subsubsection{Influencia de los cuatro factores (algoritmo generador de grafo, algoritmo de flujo máximo, numero de vértices y densidad del grafo) en el tiempo de ejecución.}
 Para analizar este caso se realizo ANOVA multifactorial dando como resultado el cuadro \ref{tab:t7} de la página \pageref{tab:t7}.
 
 % Table generated by Excel2LaTeX from sheet 'modelo'
@@ -334,7 +335,7 @@ Para analizar este caso se realizo ANOVA multifactorial dando como resultado el 
   \caption{ANOVA multifactor, influencia de los cuatro factores en el tiempo de ejecución.}
     \begin{tabular}{lrrrr}
     \toprule
-          & \multicolumn{1}{l}{\textbf{sum\_sq}} & \multicolumn{1}{l}{\textbf{df}} & \multicolumn{1}{l}{\textbf{F}} & \multicolumn{1}{l}{\textbf{PR(>F)}} \\
+          & \multicolumn{1}{l}{\textbf{sum\_sq}} & \multicolumn{1}{l}{\textbf{df}} & \multicolumn{1}{l}{\textbf{F}} & \multicolumn{1}{l}{\textbf{\texttt{PR(>F)}}} \\
     \midrule
     generador\_grafo & 0.0291 & 2     & 33.0499 & 0.0000 \\
     algoritmo\_fm & -0.0001 & 2     & -0.1439 & 1.0000 \\
@@ -351,7 +352,7 @@ Para analizar este caso se realizo ANOVA multifactorial dando como resultado el 
     \end{tabular}%
   \label{tab:t7}%
 \end{table}%
-En el cuadro \ref{tab:t7} se puede observar que los factores que más influyen en el tiempo de ejecución son el número de vértices y la densidad de los grafos, que además existe una relación entre el número de nodos y la densidad. 
+En el cuadro \ref{tab:t7} se puede observar que los factores que más influyen en el tiempo de ejecución son el número de vértices y la densidad de los grafos, que además existe una relación entre el número de nodos y la densidad de los grafos. 
 
 \newpage
 \bibliographystyle{plain}
