@@ -1,0 +1,4 @@
+group1,group2,meandiff,lower,upper,reject
+binomial_graph,erdos_renyi_graph,0.0202,-0.065,0.1055,False
+binomial_graph,fast_gnp_random_graph,0.03,-0.0553,0.1152,False
+erdos_renyi_graph,fast_gnp_random_graph,0.0097,-0.0755,0.095,False
