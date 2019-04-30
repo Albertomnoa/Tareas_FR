@@ -17,7 +17,7 @@ lista=['Dr.FL','Dra.AA','Dra.YR','Dr.RR','Dra.IM','Dra.AS','Dr.VB','Dra.ES'],['D
 posicion=nx.circular_layout(A, scale=0.5, center=None, dim=2)
 
 nx.draw_networkx_nodes(A,posicion, node_size=2000, node_color=range(9),cmap=plot.cm.Blues)
-nx.draw_networkx_edges(A,posicion, width=2,edge_color='#46267d')
+nx.draw_networkx_edges(A,posicion, width=2,edge_color= range(len(A.edges())),cmap=plot.cm.Blues)
 nx.draw_networkx_labels(A,posicion, font_size=13,font_family='arial',
                         font_color='#846c16', font_weight='bold')
 
