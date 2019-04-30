@@ -98,7 +98,7 @@ Para la generación de los grafos con el algoritmo \textit{Erdős Rényi graph} 
 \subfigure[\textit{Grafo2}, con 20 vértices]{\includegraphics[scale=0.2]{Grafo2a.eps}}
 \subfigure[\textit{Grafo3}, con 20 vértices]{\includegraphics[scale=0.2]{Grafo3a.eps}}
 \subfigure[\textit{Grafo4}, con 20 vértices]{\includegraphics[scale=0.2]{Grafo4a.eps}}
-\subfigure[\textit{Grafo5}, con 20 vértices]{\includegraphics[scale=0.2]{Grafo5a.eps}}
+\subfigure[\textit{Grafo5}, con 20 vértices]{\includegraphics[scale=0.3]{Grafo5a.eps}}
 \caption{Grafos generados con el algoritmo seleccionado, donde el grosor de las aristas representan la capacidad de las mismas.}
 \label{fig1} 
 \end{figure}
@@ -120,6 +120,9 @@ Los algoritmos escogidos en la tarea anterior son los siguientes:
 \end{itemize}
 
 De los algoritmos anteriores el que se utilisa en esta tarea es el \textit{Shortest augmenting path} por ser el algoritmo que mejores tiempos registró en la tarea anterior.
+\section{Algoritmo de acomodo}
+
+El algoritmo \texttt{ Kamada kawai layout} posiciona los nodos utilizando la función de costo de longitud de camino \textit{Kamada-Kawai}, dando la mejor visualización de los grafos generados.
 
 \section{Generación de datos}
 Con el objetivo de realizar las mediciones de los tiempos de ejecución de los algoritmo de flujo máximo seleccionado asi como el calculo de las seis propiedades de los nodos (distribución de grado, coeficiente de agrupamiento, centralidad de cercanía, centralidad de carga, excentricidad,\textit{pagerank}) se desarrolló el siguiente código.
@@ -164,7 +167,7 @@ Para el Grafo1 esto se muestra en la figura \ref{fig2} de la página \pageref{fi
 \subfigure[\textit{Grafo1}, flujo máximo 11]{\includegraphics[scale=0.22]{Grafo1mf.eps}}
 \subfigure[\textit{Grafo1}, flujo máximo 32]{\includegraphics[scale=0.22]{Grafo1cf.eps}}
 \subfigure[\textit{Grafo1}, flujo máximo 52]{\includegraphics[scale=0.22]{Grafo1bf.eps}}
-\subfigure[\textit{Grafo1}, flujo máximo 56]{\includegraphics[scale=0.22]{Grafo1af.eps}}
+\subfigure[\textit{Grafo1}, flujo máximo 56]{\includegraphics[scale=0.32]{Grafo1af.eps}}
 
 \caption{Grafos resultantes de la aplicación del algoritmo de flujo máximo, donde el grosor de las aristas representa la capacidad de las mismas, el color negro la ausencia de flujo, el color violeta la presencia de flujo y la intensidad del color violeta la cantidad de flujo que pasa por la arista. El color rojo del vértice representa la fuente y el vértice verde el sumidero. }
 \label{fig2} 
@@ -177,7 +180,7 @@ Para el Grafo2 esto se muestra en la figura \ref{fig3} de la página \pageref{fi
 \subfigure[\textit{Grafo2}, flujo máximo 10]{\includegraphics[scale=0.22]{Grafo2mf.eps}}
 \subfigure[\textit{Grafo2}, flujo máximo 36]{\includegraphics[scale=0.22]{Grafo2cf.eps}}
 \subfigure[\textit{Grafo2}, flujo máximo 39]{\includegraphics[scale=0.22]{Grafo2bf.eps}}
-\subfigure[\textit{Grafo2}, flujo máximo 40]{\includegraphics[scale=0.22]{Grafo2af.eps}}
+\subfigure[\textit{Grafo2}, flujo máximo 40]{\includegraphics[scale=0.32]{Grafo2af.eps}}
 
 \caption{Grafos resultantes de la aplicación del algoritmo de flujo máximo, donde el grosor de las aristas representa la capacidad de las mismas, el color negro la ausencia de flujo, el color violeta la presencia de flujo y la intensidad del color violeta la cantidad de flujo que pasa por la arista. El color rojo del vértice representa la fuente y el vértice verde el sumidero. }
 \label{fig3} 
@@ -190,7 +193,7 @@ Para el Grafo3 esto se muestra en la figura \ref{fig4} de la página \pageref{fi
 \subfigure[\textit{Grafo3}, flujo máximo 10]{\includegraphics[scale=0.22]{Grafo3mf.eps}}
 \subfigure[\textit{Grafo3}, flujo máximo 41]{\includegraphics[scale=0.22]{Grafo3cf.eps}}
 \subfigure[\textit{Grafo3}, flujo máximo 65]{\includegraphics[scale=0.22]{Grafo3bf.eps}}
-\subfigure[\textit{Grafo3}, flujo máximo 68]{\includegraphics[scale=0.22]{Grafo3af.eps}}
+\subfigure[\textit{Grafo3}, flujo máximo 68]{\includegraphics[scale=0.32]{Grafo3af.eps}}
 
 \caption{Grafos resultantes de la aplicación del algoritmo de flujo máximo, donde el grosor de las aristas representa la capacidad de las mismas, el color negro la ausencia de flujo, el color violeta la presencia de flujo y la intensidad del color violeta la cantidad de flujo que pasa por la arista. El color rojo del vértice representa la fuente y el vértice verde el sumidero. }
 \label{fig4} 
@@ -203,7 +206,7 @@ Para el Grafo4 esto se muestra en la figura \ref{fig5} de la página \pageref{fi
 \subfigure[\textit{Grafo4}, flujo máximo 32]{\includegraphics[scale=0.22]{Grafo4mf.eps}}
 \subfigure[\textit{Grafo4}, flujo máximo 53]{\includegraphics[scale=0.22]{Grafo4cf.eps}}
 \subfigure[\textit{Grafo4}, flujo máximo 78]{\includegraphics[scale=0.22]{Grafo4bf.eps}}
-\subfigure[\textit{Grafo4}, flujo máximo 80]{\includegraphics[scale=0.22]{Grafo4af.eps}}
+\subfigure[\textit{Grafo4}, flujo máximo 80]{\includegraphics[scale=0.32]{Grafo4af.eps}}
 
 \caption{Grafos resultantes de la aplicación del algoritmo de flujo máximo, donde el grosor de las aristas representa la capacidad de las mismas, el color negro la ausencia de flujo, el color violeta la presencia de flujo y la intensidad del color violeta la cantidad de flujo que pasa por la arista. El color rojo del vértice representa la fuente y el vértice verde el sumidero. }
 \label{fig5} 
@@ -216,7 +219,7 @@ Para el Grafo5 esto se muestra en la figura \ref{fig6} de la página \pageref{fi
 \subfigure[\textit{Grafo5}, flujo máximo 12]{\includegraphics[scale=0.22]{Grafo5mf.eps}}
 \subfigure[\textit{Grafo5}, flujo máximo 36]{\includegraphics[scale=0.22]{Grafo5cf.eps}}
 \subfigure[\textit{Grafo5}, flujo máximo 72]{\includegraphics[scale=0.22]{Grafo5bf.eps}}
-\subfigure[\textit{Grafo5}, flujo máximo 72]{\includegraphics[scale=0.22]{Grafo5af.eps}}
+\subfigure[\textit{Grafo5}, flujo máximo 72]{\includegraphics[scale=0.32]{Grafo5af.eps}}
 
 \caption{Grafos resultantes de la aplicación del algoritmo de flujo máximo, donde el grosor de las aristas representa la capacidad de las mismas, el color negro la ausencia de flujo, el color violeta la presencia de flujo y la intensidad del color violeta la cantidad de flujo que pasa por la arista. El color rojo del vértice representa la fuente y el vértice verde el sumidero. }
 \label{fig6} 
@@ -319,7 +322,7 @@ El siguiente cuadro muestra el resultado de la aplicación del ANOVA.
 % Table generated by Excel2LaTeX from sheet 'ANOVAsFlujoMaxGrado'
 \begin{table}[htbp]
   \centering
-  \caption{Influencia de la distribución de grado en el tiempo de ejecución}
+  \caption{Influencia de la distribución de grado en el tiempo de ejecución (ANOVA)}
     \begin{tabular}{lrrrlll}
     \toprule
     \textit{\textbf{Source}} & \multicolumn{1}{l}{\textit{\textbf{SS}}} & \multicolumn{1}{l}{\textit{\textbf{DF}}} & \multicolumn{1}{l}{\textit{\textbf{MS}}} & \textit{\textbf{F}} & \textit{\textbf{p-unc}} & \textit{\textbf{np2}} \\
@@ -331,7 +334,7 @@ El siguiente cuadro muestra el resultado de la aplicación del ANOVA.
   \label{tab:tab3}%
 \end{table}%
 
-En el cuadro \ref{tab:t3} se muestra que existen diferencia entre las medianas de los grupos de factores ya que el\textbf{$p-unc$}es menor que $0.05$ por lo que se rechaza la hipótesis de que la distribución de grado no influye en el \textit{tiempo de ejecución}. Esto se puede observar en la figura \ref{fig13} de la página \pageref{fig13}. 
+En el cuadro \ref{tab:tab3} se muestra que existen diferencia entre las medianas de los grupos de factores ya que el \textbf{$p-unc$} es menor que $0.05$ por lo que se rechaza la hipótesis de que la distribución de grado no influye en el \textit{tiempo de ejecución}. Esto se puede observar en la figura \ref{fig13} de la página \pageref{fig13}. 
 
 \begin{center}
 \begin{figure}[htbp]
@@ -364,7 +367,7 @@ El siguiente cuadro muestra el resultado de la aplicación del ANOVA.
 % Table generated by Excel2LaTeX from sheet 'ANOVAsCoefAg'
 \begin{table}[htbp]
   \centering
-  \caption{Influencia del coeficiente de agrupamiento en el tiempo de ejecución}
+  \caption{Influencia del coeficiente de agrupamiento en el tiempo de ejecución (ANOVA)}
     \begin{tabular}{lrrrrrr}
     \toprule
     \textit{\textbf{Source}} & \multicolumn{1}{l}{\textit{\textbf{SS}}} & \multicolumn{1}{l}{\textit{\textbf{DF}}} & \multicolumn{1}{l}{\textit{\textbf{MS}}} & \multicolumn{1}{l}{\textit{\textbf{F}}} & \multicolumn{1}{l}{\textit{\textbf{p-unc}}} & \multicolumn{1}{l}{\textit{\textbf{np2}}} \\
@@ -391,7 +394,7 @@ En el cuadro \ref{tab:t5} se muestra que existen marcadas diferencia entre las m
 % Table generated by Excel2LaTeX from sheet 'TukeyCoefAg'
 \begin{table}[htbp]
   \centering
-  \caption{Influencia del coeficiente de agrupamiento en el tiempo de ejecución}
+  \caption{Influencia del coeficiente de agrupamiento en el tiempo de ejecución (Tukey)}
     \begin{tabular}{llrrrl}
     \toprule
     \textit{\textbf{group1}} & \textit{\textbf{group2}} & \multicolumn{1}{l}{\textit{\textbf{meandiff}}} & \multicolumn{1}{l}{\textit{\textbf{lower}}} & \multicolumn{1}{l}{\textit{\textbf{upper}}} & \textit{\textbf{reject}} \\
@@ -438,7 +441,7 @@ En el cuadro \ref{tab:t7} se muestra que existen marcadas diferencia entre las m
 % Table generated by Excel2LaTeX from sheet 'TukeyCentCer'
 \begin{table}[htbp]
   \centering
-  \caption{Influencia de la centralidad de cercanía en el tiempo de ejecución}
+  \caption{Influencia de la centralidad de cercanía en el tiempo de ejecución (Tukey)}
     \begin{tabular}{llrrrl}
     \toprule
     \textit{\textbf{group1}} & \textit{\textbf{group2}} & \multicolumn{1}{l}{\textit{\textbf{meandiff}}} & \multicolumn{1}{l}{\textit{\textbf{lower}}} & \multicolumn{1}{l}{\textit{\textbf{upper}}} & \textit{\textbf{reject}} \\
@@ -459,7 +462,7 @@ El siguiente cuadro muestra el resultado de la aplicación del ANOVA.
 % Table generated by Excel2LaTeX from sheet 'ANOVAsCentCag'
 \begin{table}[htbp]
   \centering
-  \caption{Influencia de la centralidad de carga en el tiempo de ejecución(ANOVA)}
+  \caption{Influencia de la centralidad de carga en el tiempo de ejecución (ANOVA)}
     \begin{tabular}{lrrrrrr}
     \toprule
     \textit{\textbf{Source}} & \multicolumn{1}{l}{\textit{\textbf{SS}}} & \multicolumn{1}{l}{\textit{\textbf{DF}}} & \multicolumn{1}{l}{\textit{\textbf{MS}}} & \multicolumn{1}{l}{\textit{\textbf{F}}} & \multicolumn{1}{l}{\textit{\textbf{p-unc}}} & \multicolumn{1}{l}{\textit{\textbf{np2}}} \\
@@ -557,12 +560,12 @@ En el cuadro \ref{tab:t12} se muestra que existen diferencia entre las medianas 
 \end{center}
 
 
-En el cuadro \ref{tab:t12} se muestra que existen  diferencia entre las medianas de dos de los grupos de factores  \textbf{$p-unc$} es menor que $0.05$ por lo que se se rechaza la hipótesis de que el \textit{PageRank} no influye en el \textit{tiempo de ejecución}. Esto se puede observar en la figura \ref{fig17} de la página \pageref{fig17}. Por tal motivo se realiza la prueva de Tukey mostrara las diferencias entre las medianas de los factores, lo que se evidencia en el cuadro \ref{tab:t19} de la página \pageref{tab:t13}.
+En el cuadro \ref{tab:t12} se muestra que existen  diferencia entre las medianas de dos de los grupos de factores  \textbf{$p-unc$} es menor que $0.05$ por lo que se se rechaza la hipótesis de que el \textit{PageRank} no influye en el \textit{tiempo de ejecución}. Esto se puede observar en la figura \ref{fig17} de la página \pageref{fig17}. Por tal motivo se realiza la prueva de Tukey mostrara las diferencias entre las medianas de los factores, lo que se evidencia en el cuadro \ref{tab:t19} de la página \pageref{tab:t19}.
 
 % Table generated by Excel2LaTeX from sheet 'TukeyPageRag'
 \begin{table}[htbp]
   \centering
-  \caption{Influencia del \textit{PageRank} en el tiempo de ejecuciónAdd caption}
+  \caption{Influencia del \textit{PageRank} en el tiempo de ejecuciónAdd (Tukey)}
     \begin{tabular}{llrrrl}
     \textit{\textbf{group1}} & \textit{\textbf{group2}} & \multicolumn{1}{l}{\textit{\textbf{meandiff}}} & \multicolumn{1}{l}{\textit{\textbf{lower}}} & \multicolumn{1}{l}{\textit{\textbf{upper}}} & \textit{\textbf{reject}} \\
     alta  & baja  & -0.001 & -0.006 & 0.005 & \textit{False} \\
@@ -705,7 +708,7 @@ Los cuadro \ref{tab:t21}, \ref{tab:t22}, \ref{tab:t23}, \ref{tab:t24}, \ref{tab:
   \label{tab:t26}%
 \end{table}%
 
-En los cuadro anteriores se muestra que existen diferencia entre las medianas de los grupos de factores ya que el\textbf{$p-unc$}es menor que $0.05$ por lo que se rechaza la hipótesis de que las propiedades no influye en el \textit{flujo máximo}. Esto se puede observar claramente en las figuras \ref{fig19}, \ref{fig20}, \ref{fig21}, \ref{fig22}, \ref{fig23}, \ref{fig23} de las páginas \pageref{fig19}, \pageref{fig20}, \pageref{fig21}, \pageref{fig22}, \pageref{fig23}, \pageref{fig24} respectivamente.
+En los cuadro anteriores se muestra que existen diferencia entre las medianas de los grupos de factores ya que el \textbf{$p-unc$} es menor que $0.05$ por lo que se rechaza la hipótesis de que las propiedades no influye en el \textit{flujo máximo}. Esto se puede observar claramente en las figuras \ref{fig19}, \ref{fig20}, \ref{fig21}, \ref{fig22}, \ref{fig23}, \ref{fig23} de las páginas \pageref{fig19}, \pageref{fig20}, \pageref{fig21}, \pageref{fig22}, \pageref{fig23}, \pageref{fig24} respectivamente.
 
 
 \begin{center}
@@ -756,7 +759,7 @@ En los cuadro anteriores se muestra que existen diferencia entre las medianas de
 \end{figure}
 \end{center}
  
-Debido a las diferencias obtenidas en todas las ANOVAS realizadas, procedemos a relizar la prueba de Tukey cuyus resultados se muestran el los cuadros 
+Debido a las diferencias obtenidas en todas las ANOVAs realizadas, procedemos a relizar la prueba de Tukey cuyus resultados se muestran el los cuadros 
 
 % Table generated by Excel2LaTeX from sheet 'TukeyFlujoMaxGrado'
 \begin{table}[htbp]
@@ -895,7 +898,9 @@ Para analizar este caso se realizo ANOVA multifactorial dando como resultado el 
 \end{table}%
  
 En el cuadro \ref{tab:t33} de la página \pageref{tab:t33} se observa claramente que todos las características influye en los valores del flujo máximo corroborando lo arrojado en las pruebas anteriores.
+\section{Conclusiones}
 
+Después del análisis realizado se concluyo que las características estructurales si influye tanto en el tiempo de ejecución como en el valor máximo de flujo , en los grafos generados para esta tarea la características que influyen en mayor medida es la distribución de grado y \textit{pagerank}.
 
 \newpage
 \bibliographystyle{plain}
