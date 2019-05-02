@@ -1,0 +1,890 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.2.24)  2 MAY 2019 11:01
+entering extended mode
+**./Tarea4.tex
+(Tarea4.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\basic\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\basic\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\basic\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files\basic\tex\latex\base\utf8.def"
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Program Files\basic\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files\basic\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files\basic\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Program Files\basic\tex\generic\babel\babel.sty"
+Package: babel 2017/05/19 3.10 The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\basic\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\basic\tex\latex\babel-spanish\spanish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+("C:\Program Files\basic\tex\generic\babel\babel.def"
+File: babel.def 2017/05/19 3.10 Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\es@quottoks=\toks16
+\es@quotdepth=\count88
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+("C:\Program Files\basic\tex\latex\listings\listings.sty"
+("C:\Program Files\basic\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\lst@mode=\count89
+\lst@gtempboxa=\box26
+\lst@token=\toks18
+\lst@length=\count90
+\lst@currlwidth=\dimen104
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen105
+\lst@width=\dimen106
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen107
+
+("C:\Program Files\basic\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box27
+)
+("C:\Program Files\basic\tex\latex\listings\listings.cfg"
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+
+("C:\Program Files\basic\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen108
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen109
+\subfiglabelskip=\skip46
+\c@subfigure=\count97
+\c@lofdepth=\count98
+\c@subtable=\count99
+\c@lotdepth=\count100
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files\basic\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+)
+("C:\Program Files\basic\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\basic\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\basic\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\basic\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\basic\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Program Files\basic\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\basic\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+))
+\Gin@req@height=\dimen110
+\Gin@req@width=\dimen111
+)
+("C:\Program Files\basic\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\basic\tex\latex\multirow\multirow.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip49
+\multirow@cntb=\count102
+\multirow@dima=\skip50
+\bigstrutjot=\dimen112
+)
+("C:\Program Files\basic\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\basic\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Program Files\basic\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen113
+\lightrulewidth=\dimen114
+\cmidrulewidth=\dimen115
+\belowrulesep=\dimen116
+\belowbottomsep=\dimen117
+\aboverulesep=\dimen118
+\abovetopsep=\dimen119
+\cmidrulesep=\dimen120
+\cmidrulekern=\dimen121
+\defaultaddspace=\dimen122
+\@cmidla=\count103
+\@cmidlb=\count104
+\@aboverulesep=\dimen123
+\@belowrulesep=\dimen124
+\@thisruleclass=\count105
+\@lastruleclass=\count106
+\@thisrulewidth=\dimen125
+)
+("C:\Program Files\basic\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+) (Tarea4.aux
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+
+
+LaTeX Warning: Label `tab:t6' multiply defined.
+
+)
+\openout1 = `Tarea4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Info: Redefining \. on input line 53.
+LaTeX Info: Redefining \% on input line 53.
+\c@lstlisting=\count107
+ ("C:\Program Files\basic\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count108
+\scratchdimen=\dimen126
+\scratchbox=\box28
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen127
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks20
+) ("C:\Program Files\basic\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\basic\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files\basic\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\basic\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\basic\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\basic\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files\basic\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\basic\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\basic\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 54.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 54.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 54.
+
+
+LaTeX Warning: Citation `Nobari' on page 1 undefined on input line 58.
+
+
+LaTeX Warning: Citation `erg' on page 1 undefined on input line 65.
+
+
+LaTeX Warning: Citation `rgf' on page 1 undefined on input line 66.
+
+
+LaTeX Warning: Citation `bg' on page 1 undefined on input line 67.
+
+Package epstopdf Info: Source file: <histograf.eps>
+(epstopdf)                    date: 2019-04-01 19:30:48
+(epstopdf)                    size: 49672 bytes
+(epstopdf)             Output file: <histograf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-01 23:51:49
+(epstopdf)                    size: 15210 bytes
+(epstopdf)             Command: <epstopdf --outfile=histograf-eps-converted-to.
+pdf histograf.eps>
+(epstopdf)             \includegraphics on input line 73.
+Package epstopdf Info: Output file is already uptodate.
+<histograf-eps-converted-to.pdf, id=1, 578.16pt x 433.62pt>
+File: histograf-eps-converted-to.pdf Graphic file (type pdf)
+
+<use histograf-eps-converted-to.pdf>
+Package pdftex.def Info: histograf-eps-converted-to.pdf used on input line 73.
+(pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
+
+Overfull \hbox (59.70924pt too wide) in paragraph at lines 73--74
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <binomialgraph.eps>
+(epstopdf)                    date: 2019-04-01 22:30:35
+(epstopdf)                    size: 18037 bytes
+(epstopdf)             Output file: <binomialgraph-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-01 22:43:02
+(epstopdf)                    size: 5133 bytes
+(epstopdf)             Command: <epstopdf --outfile=binomialgraph-eps-converted
+-to.pdf binomialgraph.eps>
+(epstopdf)             \includegraphics on input line 80.
+Package epstopdf Info: Output file is already uptodate.
+<binomialgraph-eps-converted-to.pdf, id=2, 259.97125pt x 253.94875pt>
+File: binomialgraph-eps-converted-to.pdf Graphic file (type pdf)
+
+<use binomialgraph-eps-converted-to.pdf>
+Package pdftex.def Info: binomialgraph-eps-converted-to.pdf used on input line 
+80.
+(pdftex.def)             Requested size: 129.9853pt x 126.97406pt.
+Package epstopdf Info: Source file: <erdosrenyigraph.eps>
+(epstopdf)                    date: 2019-04-01 22:28:03
+(epstopdf)                    size: 6441 bytes
+(epstopdf)             Output file: <erdosrenyigraph-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-01 22:43:03
+(epstopdf)                    size: 3220 bytes
+(epstopdf)             Command: <epstopdf --outfile=erdosrenyigraph-eps-convert
+ed-to.pdf erdosrenyigraph.eps>
+(epstopdf)             \includegraphics on input line 81.
+Package epstopdf Info: Output file is already uptodate.
+
+<erdosrenyigraph-eps-converted-to.pdf, id=3, 259.97125pt x 253.94875pt>
+File: erdosrenyigraph-eps-converted-to.pdf Graphic file (type pdf)
+
+<use erdosrenyigraph-eps-converted-to.pdf>
+Package pdftex.def Info: erdosrenyigraph-eps-converted-to.pdf used on input lin
+e 81.
+(pdftex.def)             Requested size: 129.9853pt x 126.97406pt.
+Package epstopdf Info: Source file: <fastgnprandomgraph.eps>
+(epstopdf)                    date: 2019-04-01 22:25:55
+(epstopdf)                    size: 5157 bytes
+(epstopdf)             Output file: <fastgnprandomgraph-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-01 22:43:04
+(epstopdf)                    size: 3288 bytes
+(epstopdf)             Command: <epstopdf --outfile=fastgnprandomgraph-eps-conv
+erted-to.pdf fastgnprandomgraph.eps>
+(epstopdf)             \includegraphics on input line 82.
+Package epstopdf Info: Output file is already uptodate.
+
+<fastgnprandomgraph-eps-converted-to.pdf, id=4, 261.97874pt x 253.94875pt>
+File: fastgnprandomgraph-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fastgnprandomgraph-eps-converted-to.pdf>
+Package pdftex.def Info: fastgnprandomgraph-eps-converted-to.pdf used on input 
+line 82.
+(pdftex.def)             Requested size: 130.98904pt x 126.97406pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--83
+[][] []
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 93.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 93.
+ [2 <./histograf-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `Bosek2018' on page 3 undefined on input line 99.
+
+
+LaTeX Warning: Citation `mf' on page 3 undefined on input line 100.
+
+
+LaTeX Warning: Citation `gc' on page 3 undefined on input line 101.
+
+[3 <./binomialgraph-eps-converted-to.pdf> <./erdosrenyigraph-eps-converted-to.p
+df> <./fastgnprandomgraph-eps-converted-to.pdf>]
+("C:\Program Files\basic\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+) (Generar_datos.py)
+[4] (Generar_datos.py
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
+ ("C:\Program Files\basic\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+
+[5]) (Analisis_datos.py [6]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 22.
+ ("C:\Program Files\basic\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 22.
+)
+
+LaTeX Warning: Citation `ade' on page 7 undefined on input line 153.
+
+[7] [8]
+Package epstopdf Info: Source file: <boxplotgeneradorgrafo.eps>
+(epstopdf)                    date: 2019-04-02 04:46:37
+(epstopdf)                    size: 25538 bytes
+(epstopdf)             Output file: <boxplotgeneradorgrafo-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-04-02 06:23:14
+(epstopdf)                    size: 16251 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplotgeneradorgrafo-eps-c
+onverted-to.pdf boxplotgeneradorgrafo.eps>
+(epstopdf)             \includegraphics on input line 180.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplotgeneradorgrafo-eps-converted-to.pdf, id=79, 524.96124pt x 322.20375pt>
+File: boxplotgeneradorgrafo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use boxplotgeneradorgrafo-eps-converted-to.pdf>
+Package pdftex.def Info: boxplotgeneradorgrafo-eps-converted-to.pdf used on inp
+ut line 180.
+(pdftex.def)             Requested size: 314.97917pt x 193.32373pt.
+Package epstopdf Info: Source file: <boxplotalgoritmofm.eps>
+(epstopdf)                    date: 2019-04-02 04:46:49
+(epstopdf)                    size: 25210 bytes
+(epstopdf)             Output file: <boxplotalgoritmofm-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-02 07:02:11
+(epstopdf)                    size: 16305 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplotalgoritmofm-eps-conv
+erted-to.pdf boxplotalgoritmofm.eps>
+(epstopdf)             \includegraphics on input line 205.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplotalgoritmofm-eps-converted-to.pdf, id=80, 534.99875pt x 322.20375pt>
+File: boxplotalgoritmofm-eps-converted-to.pdf Graphic file (type pdf)
+
+<use boxplotalgoritmofm-eps-converted-to.pdf>
+Package pdftex.def Info: boxplotalgoritmofm-eps-converted-to.pdf used on input 
+line 205.
+(pdftex.def)             Requested size: 321.00172pt x 193.32373pt.
+ [9 <./boxplotgeneradorgrafo-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <boxplotvertices.eps>
+(epstopdf)                    date: 2019-04-02 06:52:01
+(epstopdf)                    size: 26251 bytes
+(epstopdf)             Output file: <boxplotvertices-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-02 07:36:05
+(epstopdf)                    size: 16929 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplotvertices-eps-convert
+ed-to.pdf boxplotvertices.eps>
+(epstopdf)             \includegraphics on input line 232.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplotvertices-eps-converted-to.pdf, id=112, 516.93124pt x 388.45125pt>
+File: boxplotvertices-eps-converted-to.pdf Graphic file (type pdf)
+
+<use boxplotvertices-eps-converted-to.pdf>
+Package pdftex.def Info: boxplotvertices-eps-converted-to.pdf used on input lin
+e 232.
+(pdftex.def)             Requested size: 310.16113pt x 233.07254pt.
+Package epstopdf Info: Source file: <simultaneoustukeyvertices.eps>
+(epstopdf)                    date: 2019-04-02 06:52:01
+(epstopdf)                    size: 28714 bytes
+(epstopdf)             Output file: <simultaneoustukeyvertices-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-04-02 07:43:55
+(epstopdf)                    size: 21355 bytes
+(epstopdf)             Command: <epstopdf --outfile=simultaneoustukeyvertices-e
+ps-converted-to.pdf simultaneoustukeyvertices.eps>
+(epstopdf)             \includegraphics on input line 265.
+Package epstopdf Info: Output file is already uptodate.
+
+<simultaneoustukeyvertices-eps-converted-to.pdf, id=113, 628.3475pt x 398.48875
+pt>
+File: simultaneoustukeyvertices-eps-converted-to.pdf Graphic file (type pdf)
+ <use simultaneoustukeyvertices-eps-converted-to.pdf>
+Package pdftex.def Info: simultaneoustukeyvertices-eps-converted-to.pdf used on
+ input line 265.
+(pdftex.def)             Requested size: 377.0114pt x 227.04997pt.
+ [10 <./boxplotalgoritmofm-eps-converted-to.pdf>] [11 <./boxplotvertices-eps-co
+nverted-to.pdf>]
+Package epstopdf Info: Source file: <boxplot.eps>
+(epstopdf)                    date: 2019-04-02 04:56:39
+(epstopdf)                    size: 26625 bytes
+(epstopdf)             Output file: <boxplot-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-02 05:00:18
+(epstopdf)                    size: 17982 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplot-eps-converted-to.pd
+f boxplot.eps>
+(epstopdf)             \includegraphics on input line 276.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplot-eps-converted-to.pdf, id=179, 578.16pt x 433.62pt>
+File: boxplot-eps-converted-to.pdf Graphic file (type pdf)
+
+<use boxplot-eps-converted-to.pdf>
+Package pdftex.def Info: boxplot-eps-converted-to.pdf used on input line 276.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [12 <./simultaneoustukeyvertices-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <boxplotdensidad.eps>
+(epstopdf)                    date: 2019-04-02 04:46:41
+(epstopdf)                    size: 23693 bytes
+(epstopdf)             Output file: <boxplotdensidad-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-04-02 07:59:59
+(epstopdf)                    size: 15844 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplotdensidad-eps-convert
+ed-to.pdf boxplotdensidad.eps>
+(epstopdf)             \includegraphics on input line 300.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplotdensidad-eps-converted-to.pdf, id=223, 432.61626pt x 322.20375pt>
+File: boxplotdensidad-eps-converted-to.pdf Graphic file (type pdf)
+
+<use boxplotdensidad-eps-converted-to.pdf>
+Package pdftex.def Info: boxplotdensidad-eps-converted-to.pdf used on input lin
+e 300.
+(pdftex.def)             Requested size: 259.57176pt x 193.32373pt.
+Package epstopdf Info: Source file: <simultaneoustukeydensidad.eps>
+(epstopdf)                    date: 2019-04-02 04:46:41
+(epstopdf)                    size: 26387 bytes
+(epstopdf)             Output file: <simultaneoustukeydensidad-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-04-02 08:11:08
+(epstopdf)                    size: 20501 bytes
+(epstopdf)             Command: <epstopdf --outfile=simultaneoustukeydensidad-e
+ps-converted-to.pdf simultaneoustukeydensidad.eps>
+(epstopdf)             \includegraphics on input line 324.
+Package epstopdf Info: Output file is already uptodate.
+
+<simultaneoustukeydensidad-eps-converted-to.pdf, id=224, 634.37pt x 398.48875pt
+>
+File: simultaneoustukeydensidad-eps-converted-to.pdf Graphic file (type pdf)
+ <use simultaneoustukeydensidad-eps-converted-to.pdf>
+Package pdftex.def Info: simultaneoustukeydensidad-eps-converted-to.pdf used on
+ input line 324.
+(pdftex.def)             Requested size: 380.62492pt x 227.04997pt.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 338.
+ [13 <./boxplot-eps-converted-to.pdf>] [14 <./simultaneoustukeydensidad-eps-con
+verted-to.pdf> <./boxplotdensidad-eps-converted-to.pdf>] [15]
+No file Tarea4.bbl.
+(Tarea4.aux
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5103 strings out of 493323
+ 67272 string characters out of 3141224
+ 590966 words of memory out of 3000000
+ 8553 multiletter control sequences out of 15000+200000
+ 9120 words of font info for 32 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,10n,43p,633b,1742s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program
+ Files/basic/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/basic/
+fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/basic/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/basic/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
+ Files/basic/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/basic/f
+onts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/basic/fonts/type1/pub
+lic/amsfonts/cm/cmr5.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm
+/cmr7.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/P
+rogram Files/basic/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
+basic/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/basic/fonts/ty
+pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/basic/fonts/type1/public/am
+sfonts/cm/cmti8.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmtt
+10.pfb>
+Output written on Tarea4.pdf (15 pages, 378834 bytes).
+PDF statistics:
+ 389 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+
