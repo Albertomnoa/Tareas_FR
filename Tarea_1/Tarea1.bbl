@@ -9,7 +9,7 @@ Amalia~Duch Brown.
 \bibitem{article1}
 Anwesha Chakraborty, Trina Dutta, Sushmita Mondal, and Asoke Nath.
 \newblock Application of graph theory in social media.
-\newblock {\em INTERNATIONAL JOURNAL OF COMPUTER SCIENCES AND ENGINEERING},
+\newblock {\em International journal of computer sciences and engineering},
   6:722--729, 10 2018.
 
 \bibitem{gf3}
@@ -23,11 +23,12 @@ Kimball Martin.
 \newblock Spring, Abril 2014.
 
 \bibitem{gf2}
-Ángel Muñoz~Alamillos Mauricio Beltrán~Pascuala, Azahara Muñoz~Martínez.
-\newblock Redesbayesianas aplicadas a problemas de credit scoring.una
+Azahara Muñoz~Martínez Mauricio Beltrán~Pascuala and Ángel
+  Muñoz~Alamillos.
+\newblock Redes bayesianas aplicadas a problemas de credit scoring. una
   aplicación práctica.
 \newblock
-  \url{http://www.elsevier.es/en-revista-cuadernos-\\economia-329-articulo-redes-bayesianas-aplicadas-problemas-credit-S0210026613000083?referer=buscador},
+  \url{https://www.sciencedirect.com/science/article/pii/S0210026613000083},
   Octubre 2013.
 
 \end{thebibliography}

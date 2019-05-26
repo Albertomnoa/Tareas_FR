@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.2.24)  26 FEB 2019 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.2.24)  9 MAY 2019 11:19
 entering extended mode
 **./Tarea2.tex
 (Tarea2.tex
@@ -389,7 +389,7 @@ File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
 \lst@framebox=\box27
 )
 ("C:\Program Files\basic\tex\latex\listings\listings.cfg"
-File: listings.cfg 2018/09/02 1.7 listings configuration
+File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
 Package: listings 2018/09/02 1.7 (Carsten Heinz)
 
@@ -462,13 +462,6 @@ File: lstlang1.sty 2018/09/02 1.7 listings language file
 ) (Tarea2.aux
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
-
-
-LaTeX Warning: Label `fig:AUSG_bipartite' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:AUSG_bipartite' multiply defined.
-
 )
 \openout1 = `Tarea2.aux'.
 
@@ -487,7 +480,8 @@ LaTeX Font Info:    ... okay on input line 52.
 LaTeX Info: Redefining \. on input line 52.
 LaTeX Info: Redefining \% on input line 52.
 \c@lstlisting=\count102
- ("C:\Program Files\basic\tex\context\base\supp-pdf.mkii"
+
+("C:\Program Files\basic\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count103
 \scratchdimen=\dimen117
@@ -564,15 +558,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 ) (Graf1.py [2])
 Package epstopdf Info: Source file: <Graf1_spring_layout.eps>
-(epstopdf)                    date: 2019-02-26 12:35:56
-(epstopdf)                    size: 11477 bytes
+(epstopdf)                    date: 2019-02-27 01:11:19
+(epstopdf)                    size: 11476 bytes
 (epstopdf)             Output file: <Graf1_spring_layout-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-26 12:36:18
 (epstopdf)                    size: 9557 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graf1_spring_layout-eps-con
 verted-to.pdf Graf1_spring_layout.eps>
 (epstopdf)             \includegraphics on input line 91.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Graf1_spring_layout-eps-converted-to.pdf Graf1_spr
+ing_layout.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Graf1_spring_layout-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-09 11:19:38
+(epstopdf)                    size: 9568 bytes.
 
 <Graf1_spring_layout-eps-converted-to.pdf, id=17, 433.62pt x 289.08pt>
 File: Graf1_spring_layout-eps-converted-to.pdf Graphic file (type pdf)
@@ -594,46 +593,47 @@ Package epstopdf Info: Source file: <Graf1_random_layout.eps>
 (epstopdf)                    size: 9586 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graf1_random_layout-eps-con
 verted-to.pdf Graf1_random_layout.eps>
-(epstopdf)             \includegraphics on input line 97.
+(epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
 <Graf1_random_layout-eps-converted-to.pdf, id=18, 433.62pt x 289.08pt>
 File: Graf1_random_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Graf1_random_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Graf1_random_layout-eps-converted-to.pdf used on input
- line 97.
+ line 96.
 (pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
 
-Overfull \hbox (0.94492pt too wide) in paragraph at lines 96--98
+Overfull \hbox (0.94492pt too wide) in paragraph at lines 96--97
 [][] 
- []
-
-
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 90--100
-[]$[]$ $[]$ 
  []
 
 [3 <./Graf1_spring_layout-eps-converted-to.pdf> <./Graf1_random_layout-eps-conv
 erted-to.pdf>] (Graf2.py [4])
 Package epstopdf Info: Source file: <Graf2_circular_layout.eps>
-(epstopdf)                    date: 2019-02-26 11:58:42
-(epstopdf)                    size: 14624 bytes
+(epstopdf)                    date: 2019-04-27 16:23:14
+(epstopdf)                    size: 15342 bytes
 (epstopdf)             Output file: <Graf2_circular_layout-eps-converted-to.pdf
 >
 (epstopdf)                    date: 2019-02-26 12:04:06
 (epstopdf)                    size: 11142 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graf2_circular_layout-eps-c
 onverted-to.pdf Graf2_circular_layout.eps>
-(epstopdf)             \includegraphics on input line 125.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             \includegraphics on input line 120.
+runsystem(epstopdf --outfile=Graf2_circular_layout-eps-converted-to.pdf Graf2_c
+ircular_layout.eps)...executed (allowed).
 
-<Graf2_circular_layout-eps-converted-to.pdf, id=54, 433.62pt x 289.08pt>
+Package epstopdf Info: Result file: <Graf2_circular_layout-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-05-09 11:19:38
+(epstopdf)                    size: 11398 bytes.
+
+<Graf2_circular_layout-eps-converted-to.pdf, id=54, 462.72874pt x 346.29375pt>
 File: Graf2_circular_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Graf2_circular_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Graf2_circular_layout-eps-converted-to.pdf used on inp
-ut line 125.
-(pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
+ut line 120.
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
  [5 <./Graf2_circular_layout-eps-converted-to.pdf>] (Graf3.py
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
  ("C:\Program Files\basic\tex\latex\base\omscmr.fd"
@@ -651,7 +651,7 @@ Package epstopdf Info: Source file: <Graf3_kamada_kawai_layout.eps>
 (epstopdf)                    size: 18460 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graf3_kamada_kawai_layout-e
 ps-converted-to.pdf Graf3_kamada_kawai_layout.eps>
-(epstopdf)             \includegraphics on input line 148.
+(epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graf3_kamada_kawai_layout-eps-converted-to.pdf, id=81, 433.62pt x 289.08pt>
@@ -659,27 +659,32 @@ File: Graf3_kamada_kawai_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Graf3_kamada_kawai_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Graf3_kamada_kawai_layout-eps-converted-to.pdf used on
- input line 148.
+ input line 143.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
  [7 <./Graf3_kamada_kawai_layout-eps-converted-to.pdf>] (Graf4.py [8])
 Package epstopdf Info: Source file: <Graf4_shell_layout.eps>
-(epstopdf)                    date: 2019-02-26 11:59:17
-(epstopdf)                    size: 9210 bytes
+(epstopdf)                    date: 2019-04-27 16:05:09
+(epstopdf)                    size: 9292 bytes
 (epstopdf)             Output file: <Graf4_shell_layout-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-26 12:04:07
 (epstopdf)                    size: 7375 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graf4_shell_layout-eps-conv
 erted-to.pdf Graf4_shell_layout.eps>
-(epstopdf)             \includegraphics on input line 173.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             \includegraphics on input line 168.
+runsystem(epstopdf --outfile=Graf4_shell_layout-eps-converted-to.pdf Graf4_shel
+l_layout.eps)...executed (allowed).
 
-<Graf4_shell_layout-eps-converted-to.pdf, id=122, 433.62pt x 289.08pt>
+Package epstopdf Info: Result file: <Graf4_shell_layout-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-09 11:19:39
+(epstopdf)                    size: 7408 bytes.
+
+<Graf4_shell_layout-eps-converted-to.pdf, id=122, 462.72874pt x 346.29375pt>
 File: Graf4_shell_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Graf4_shell_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Graf4_shell_layout-eps-converted-to.pdf used on input 
-line 173.
-(pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
+line 168.
+(pdftex.def)             Requested size: 323.90791pt x 242.40396pt.
  [9 <./Graf4_shell_layout-eps-converted-to.pdf>] (Graf5.py)
 Package epstopdf Info: Source file: <Graf5_kamada_kawai_layout.eps>
 (epstopdf)                    date: 2019-02-26 12:00:44
@@ -690,7 +695,7 @@ Package epstopdf Info: Source file: <Graf5_kamada_kawai_layout.eps>
 (epstopdf)                    size: 13803 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graf5_kamada_kawai_layout-e
 ps-converted-to.pdf Graf5_kamada_kawai_layout.eps>
-(epstopdf)             \includegraphics on input line 196.
+(epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graf5_kamada_kawai_layout-eps-converted-to.pdf, id=137, 433.62pt x 289.08pt>
@@ -698,7 +703,7 @@ File: Graf5_kamada_kawai_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Graf5_kamada_kawai_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Graf5_kamada_kawai_layout-eps-converted-to.pdf used on
- input line 196.
+ input line 191.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
  [10] [11 <./Graf5_kamada_kawai_layout-eps-converted-to.pdf>] (Graf6.py)
 Package epstopdf Info: Source file: <Graf6_random_layout.eps>
@@ -709,7 +714,7 @@ Package epstopdf Info: Source file: <Graf6_random_layout.eps>
 (epstopdf)                    size: 9446 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graf6_random_layout-eps-con
 verted-to.pdf Graf6_random_layout.eps>
-(epstopdf)             \includegraphics on input line 218.
+(epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graf6_random_layout-eps-converted-to.pdf, id=167, 433.62pt x 289.08pt>
@@ -717,7 +722,7 @@ File: Graf6_random_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Graf6_random_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Graf6_random_layout-eps-converted-to.pdf used on input
- line 218.
+ line 213.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
  [12] (Graf7.py [13 <./Graf6_random_layout-eps-converted-to.pdf>])
 Package epstopdf Info: Source file: <Graf7_spring_layout.eps>
@@ -728,7 +733,7 @@ Package epstopdf Info: Source file: <Graf7_spring_layout.eps>
 (epstopdf)                    size: 12725 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graf7_spring_layout-eps-con
 verted-to.pdf Graf7_spring_layout.eps>
-(epstopdf)             \includegraphics on input line 235.
+(epstopdf)             \includegraphics on input line 230.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graf7_spring_layout-eps-converted-to.pdf, id=188, 433.62pt x 289.08pt>
@@ -736,7 +741,7 @@ File: Graf7_spring_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Graf7_spring_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Graf7_spring_layout-eps-converted-to.pdf used on input
- line 235.
+ line 230.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 
 
@@ -752,7 +757,7 @@ Package epstopdf Info: Source file: <Graf8_spectral_layout.eps>
 (epstopdf)                    size: 8708 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graf8_spectral_layout-eps-c
 onverted-to.pdf Graf8_spectral_layout.eps>
-(epstopdf)             \includegraphics on input line 252.
+(epstopdf)             \includegraphics on input line 247.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graf8_spectral_layout-eps-converted-to.pdf, id=219, 433.62pt x 289.08pt>
@@ -760,7 +765,7 @@ File: Graf8_spectral_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Graf8_spectral_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Graf8_spectral_layout-eps-converted-to.pdf used on inp
-ut line 252.
+ut line 247.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
  [16 <./Graf8_spectral_layout-eps-converted-to.pdf>] (Graf9.py [17])
 Package epstopdf Info: Source file: <Graf9_circular_layout.eps>
@@ -772,7 +777,7 @@ Package epstopdf Info: Source file: <Graf9_circular_layout.eps>
 (epstopdf)                    size: 18828 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graf9_circular_layout-eps-c
 onverted-to.pdf Graf9_circular_layout.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graf9_circular_layout-eps-converted-to.pdf, id=240, 433.62pt x 289.08pt>
@@ -780,7 +785,7 @@ File: Graf9_circular_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Graf9_circular_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Graf9_circular_layout-eps-converted-to.pdf used on inp
-ut line 267.
+ut line 262.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
  [18 <./Graf9_circular_layout-eps-converted-to.pdf>] (Graf10.py)
 Package epstopdf Info: Source file: <Graf10_spectral_layout.eps>
@@ -792,7 +797,7 @@ f>
 (epstopdf)                    size: 9235 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graf10_spectral_layout-eps-
 converted-to.pdf Graf10_spectral_layout.eps>
-(epstopdf)             \includegraphics on input line 281.
+(epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graf10_spectral_layout-eps-converted-to.pdf, id=276, 433.62pt x 289.08pt>
@@ -800,7 +805,7 @@ File: Graf10_spectral_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Graf10_spectral_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Graf10_spectral_layout-eps-converted-to.pdf used on in
-put line 281.
+put line 276.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 
 
@@ -816,7 +821,7 @@ o.pdf>
 (epstopdf)                    size: 12469 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graf11_kamada_kawai_layout-
 eps-converted-to.pdf Graf11_kamada_kawai_layout.eps>
-(epstopdf)             \includegraphics on input line 299.
+(epstopdf)             \includegraphics on input line 294.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graf11_kamada_kawai_layout-eps-converted-to.pdf, id=298, 433.62pt x 289.08pt>
@@ -824,7 +829,7 @@ File: Graf11_kamada_kawai_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Graf11_kamada_kawai_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Graf11_kamada_kawai_layout-eps-converted-to.pdf used o
-n input line 299.
+n input line 294.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 
 
@@ -840,7 +845,7 @@ f>
 (epstopdf)                    size: 7441 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graf12_spectral_layout-eps-
 converted-to.pdf Graf12_spectral_layout.eps>
-(epstopdf)             \includegraphics on input line 322.
+(epstopdf)             \includegraphics on input line 317.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graf12_spectral_layout-eps-converted-to.pdf, id=322, 433.62pt x 289.08pt>
@@ -848,7 +853,7 @@ File: Graf12_spectral_layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Graf12_spectral_layout-eps-converted-to.pdf>
 Package pdftex.def Info: Graf12_spectral_layout-eps-converted-to.pdf used on in
-put line 322.
+put line 317.
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 
 
@@ -911,31 +916,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--47
 [24 <./Graf12_spectral_layout-eps-converted-to.pdf>]) [25] (Tarea2.aux
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
-)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+) ) 
 Here is how much of TeX's memory you used:
- 5921 strings out of 493323
- 83909 string characters out of 3141224
- 578645 words of memory out of 3000000
- 9348 multiletter control sequences out of 15000+200000
+ 5920 strings out of 493323
+ 83875 string characters out of 3141224
+ 578646 words of memory out of 3000000
+ 9347 multiletter control sequences out of 15000+200000
  8401 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,9n,43p,677b,1869s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program
- Files/basic/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/basic/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/basic/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-<C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Fil
-es/basic/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/basic/fonts/
-type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/basic/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cms
-y8.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Pr
-ogram Files/basic/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Tarea2.pdf (25 pages, 380119 bytes).
+<C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
+m Files/basic/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/basic
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/basic/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Program Files/basic/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmr17.pfb
+><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Fi
+les/basic/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/basic/fonts
+/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/basic/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/P
+rogram Files/basic/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Tarea2.pdf (25 pages, 380597 bytes).
 PDF statistics:
  385 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
