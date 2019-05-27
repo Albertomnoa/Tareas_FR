@@ -7,11 +7,11 @@
 \usepackage{url}
 \usepackage{multirow}
 \usepackage{color}
-
+\usepackage{booktabs}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{1em}
-
+\usepackage[margin=3cm,twoside]{geometry} 
 
 \definecolor{mygreen}{rgb}{0,0.6,0}
 \definecolor{mygray}{rgb}{0.5,0.5,0.5}
@@ -53,21 +53,23 @@
 \maketitle
 
 \section{Algoritimos utilizados en las mediciones}
+
 Se seleccionaron cinco de los doce algoritmos para ejecutarlos sobre cinco de los grafos de tareas anteriores, midiendo los tiempos de ejecución de cada algoritmo y realizando un análisis de los datos obtenidos. Dado los requerimientos de los algoritmos escogidos para la realización de esta tarea, se tuvo modificar los dichos grafos agregándoles más nodos y se convirtiéndolos a grafos no dirigidos, como se muestra en la figura 1.
  
 Los algoritmos escogidos fueron los siguientes:
 
 \begin{itemize}
- \item\textit{Make max clique graph} (encuentra las camarillas máximas y las trata como vértices . Los vértices  están conectados si tienen miembros comunes en el grafo original)  \cite{mc}.  
- \item\textit{Betweenness centrality} (calcula la centralidad de intermediación de ruta más corta para los vértices . La centralidad de la intermediación es una forma de detectar la cantidad de influencia que un vértice tiene sobre el flujo de información en un grafo) \cite{bct}.
+ \item\textit{Make max clique graph} (encuentra las camarillas máximas y las trata como vértices. Los vértices  están conectados si tienen miembros comunes en el grafo original)  \cite{mc}.  
+ \item\textit{Betweenness centrality} (calcula la centralidad de intermediación de ruta más corta para los vértices. La centralidad de la intermediación es una forma de detectar la cantidad de influencia que un vértice tiene sobre el flujo de información en un grafo) \cite{bct}.
 	\item\textit{Greedy color} (colorea un grafo usando varias estrategias de coloración codiciosa. Las estrategias se pueden describir como el intento de colorear un grafo con la menor cantidad de colores posibles, donde ningún vecino puede tener el mismo color) \cite{gc}.
-	\item\textit{Maximal matching} (encuentra una cardinalidad máxima de coincidencia en el grafo. Una coincidencia es un subconjunto de aristas en las que no se produce ningún vértice más de una vez. La cardinalidad de una coincidencia es el número de arcos coincidentes. Se uso este algoritmo en lugar del\textit{min maximal matching} ya que este daba un error en networkx)\cite{mm}.
+	\item\textit{Maximal matching} (encuentra una cardinalidad máxima de coincidencia en el grafo. Una coincidencia es un subconjunto de aristas en las que no se produce ningún vértice más de una vez. La cardinalidad de una coincidencia es el número de arcos coincidentes. Se uso este algoritmo en lugar del\textit{min maximal matching} ya que este daba un error en networkx) \cite{mm}.
 	\item\textit{Dfs tree} (crea un árbol orientado hacia el retorno construido a partir de una fuente en una búsqueda en profundidad) \cite{dt}.
 \end{itemize}
 \begin{center}
 \lstinputlisting[language=Python, firstline=1, lastline=36]{Genera_grafos.py}
 \end{center}
-\begin{figure}[h]
+
+\begin{figure}[htbp]
 
 \subfigure[grafo1, 800 vértices, 3966 aristas]{\includegraphics[scale=0.2]{1NoDirigido.eps}}
 \subfigure[grafo2, 400 vértices, 3780 aristas]{\includegraphics[scale=0.2]{2NoDirigido.eps}}
@@ -75,10 +77,12 @@ Los algoritmos escogidos fueron los siguientes:
 \subfigure[grafo4, 500 vértices, 2439 aristas]{\includegraphics[scale=0.2]{4NoDirigido.eps}}
 \subfigure[grafo5, 710 vértices, 2478 aristas]{\includegraphics[scale=0.2]{5NoDirigido.eps}}
 
-\caption{Grafos generados para la tarea 3.} 
+\caption{Grafos generados para la .} 
 \end{figure}
 \newpage
+
 \section{Medición de los tiempos de ejecución}
+
 Con el objetivo de realizar las mediciones de los tiempos de ejecución de los algoritmos seleccionados se desarrolló el siguiente código.
 
 En primer lugar, se crea una función que lee de un archivo la matriz de adyacencia de un grafo y convierte dicha matriz en un grafo.
@@ -94,46 +98,48 @@ En este otro fragmento se muestra donde se ejecutan las funciones y se guarda el
 \lstinputlisting[language=Python, firstline=146, lastline=165]{Corer_Algoritmos.py}
 \end{center}
 
-\begin{table}[ht]
-	\centering
-		\begin{tabular}{|c|c|c|}
-			\hline
-			\textbf{Algoritmos} & \textbf{Nodos} & \textbf{Media} \\
-			
-			\hline
-			 make max clique graph & 800 & 13.563634 \\
-			 make max clique graph & 400 & 8.1612773 \\
-			 make max clique graph & 640 & 11.440034 \\
-			 make max clique graph & 500 & 4.9734789 \\
-			 make max clique graph & 710 & 5.7414766 \\
-			 betweenness centrality & 800 & 47.346500 \\
-			 betweenness centrality & 400 & 15.314375 \\
-			 betweenness centrality & 640 & 30.711309 \\
-			 betweenness centrality & 500 & 17.162814 \\
-			 betweenness centrality & 710 & 31.422583 \\
-			 greedy color & 800 & 2.615292\\
-			 greedy color & 400 & 1.612627 \\
-			 greedy color & 640 & 2.203329 \\
-			 greedy color & 500 & 1.609072 \\
-			 greedy color & 710 & 2.115973 \\
-			 maximal matching & 800 & 0.990775 \\
-			 maximal matching & 400 & 0.787178 \\
-			 maximal matching & 640 & 0.909580 \\
-			 maximal matching & 500 & 0.588539 \\
-			 maximal matching & 710 & 0.684729 \\
-			 dfs tree & 800 & 4.931849\\
-			 dfs tree & 400 & 2.897395 \\
-			 dfs tree & 640 & 4.367618 \\
-			 dfs tree & 500 & 2.912410 \\
-			 dfs tree & 710 & 4.185530 \\
-			\hline
-		\end{tabular}
-	\caption{Tabla de valores capturados}
-	\label{tab:una-tablita}
-\end{table}
+% Table generated by Excel2LaTeX from sheet 'salid'
+\begin{table}[htbp]
+  \centering
+  \caption{Fragmento de archivo de datos recopilados}
+    \begin{tabular}{llrrr}
+    \toprule
+    \textit{\textbf{Algoritmo}} & \textit{\textbf{Grafo}} & \multicolumn{1}{l}{\textit{\textbf{Vertice}}} & \multicolumn{1}{l}{\textit{\textbf{Arista}}} & \multicolumn{1}{l}{\textit{\textbf{Media}}} \\
+    \midrule
+    make\_max\_clique\_graph & 1NoDirigido.csv & 800   & 3966  & 13.564 \\
+    make\_max\_clique\_graph & 2NoDirigido.csv & 400   & 3780  & 8.161 \\
+    make\_max\_clique\_graph & 3NoDirigido.csv & 640   & 3850  & 11.440 \\
+    make\_max\_clique\_graph & 4NoDirigido.csv & 500   & 2439  & 4.973 \\
+    make\_max\_clique\_graph & 5NoDirigido.csv & 710   & 2478  & 5.741 \\
+    betweenness\_centrality & 1NoDirigido.csv & 800   & 3966  & 47.347 \\
+    betweenness\_centrality & 2NoDirigido.csv & 400   & 3780  & 15.314 \\
+    betweenness\_centrality & 3NoDirigido.csv & 640   & 3850  & 30.711 \\
+    betweenness\_centrality & 4NoDirigido.csv & 500   & 2439  & 17.163 \\
+    betweenness\_centrality & 5NoDirigido.csv & 710   & 2478  & 31.423 \\
+    greedy\_color & 1NoDirigido.csv & 800   & 3966  & 2.615 \\
+    greedy\_color & 2NoDirigido.csv & 400   & 3780  & 1.613 \\
+    greedy\_color & 3NoDirigido.csv & 640   & 3850  & 2.203 \\
+    greedy\_color & 4NoDirigido.csv & 500   & 2439  & 1.609 \\
+    greedy\_color & 5NoDirigido.csv & 710   & 2478  & 2.116 \\
+    Maximal\_matching & 1NoDirigido.csv & 800   & 3966  & 0.991 \\
+    Maximal\_matching & 2NoDirigido.csv & 400   & 3780  & 0.787 \\
+    Maximal\_matching & 3NoDirigido.csv & 640   & 3850  & 0.910 \\
+    Maximal\_matching & 4NoDirigido.csv & 500   & 2439  & 0.589 \\
+    Maximal\_matching & 5NoDirigido.csv & 710   & 2478  & 0.685 \\
+    dfs\_tree & 1NoDirigido.csv & 800   & 3966  & 4.932 \\
+    dfs\_tree & 2NoDirigido.csv & 400   & 3780  & 2.897 \\
+    dfs\_tree & 3NoDirigido.csv & 640   & 3850  & 4.368 \\
+    dfs\_tree & 4NoDirigido.csv & 500   & 2439  & 2.912 \\
+    dfs\_tree & 5NoDirigido.csv & 710   & 2478  & 4.186 \\
+    \bottomrule
+    \end{tabular}%
+  \label{tab:addlabel}%
+\end{table}%
+
 
 
 \newpage
+
 \section{Resultados del Análisis de los datos}
 
 Con los datos recopilado de las ejecuciones de los Algoritmos par los cinco grafos se realizó un histograma, como se muestra en la figura 2 y dos diagramas de dispersión, uno que muestra la relación de la media de los tiempos de ejecución de cada algoritmo con la cantidad de vértices y el otro con la cantidad de aristas, como se muestra en la figura 3 y 4 respectivamente. En estas figuras se puede observar que el algoritmo con los tiempos de ejecución más pequeños es el \textit{Maximal matching}, así como que el de mayores tiempos es el \textit{Betweenness centrality}. En sentido general se observa que cuando aumentan la cantidad de nodos y aristas aumenta el tiempo de ejecución de los algoritmos.
@@ -142,31 +148,41 @@ Con los datos recopilado de las ejecuciones de los Algoritmos par los cinco graf
 
   
 \begin{center}
-\lstinputlisting[language=Python, firstline=6, lastline=34]{Histograma.py}
+\lstinputlisting[language=Python, firstline=6, lastline=45]{Histograma.py}
 \end{center}
 
 \newpage
 \begin{center}
-\lstinputlisting[language=Python, firstline=37, lastline=61]{Histograma.py}
+\lstinputlisting[language=Python, firstline=47 lastline=92]{Histograma.py}
 \end{center}
 
+
+
+\begin{figure}[htbp]
+
+\subfigure[\textit{Make max clique graph}]{\includegraphics[scale=0.5]{Histograma1.eps}}
+\subfigure[\textit{Betweenness centrality}]{\includegraphics[scale=0.5]{Histograma2.eps}}
+\subfigure[\textit{Greedy color algorithm}]{\includegraphics[scale=0.5]{Histograma3.eps}}
+\subfigure[\textit{Maximal matching}]{\includegraphics[scale=0.5]{Histograma4.eps}}
+\subfigure[\textit{Dfs tree} ]{\includegraphics[scale=0.5]{Histograma5.eps}}
+\caption{Histograma de cada uno de los cinco algoritmo con los cinco grafos generados.} 
+\end{figure}
+
+
 \begin{center}
-\begin{figure}[h]
-\includegraphics[scale=0.6]{Histograma.eps}
-\caption{Histograma que de los cinco algoritmos con cinco grafos.}
-\end{figure}
-\begin{figure}[h]
+\begin{figure}[htbp]
 \includegraphics[scale=0.7]{DiagramVertices.eps}
-\caption{Diagrama de dispersión que muestra la relación entre los tiempos de ejecución(en segundos) y la cantidad de vértices, los diferentes colores indican los cinco grafos(grafo1(rojo), grafo2(verde), grafo3(azul), grafo4(amarillo), grafo4(naranja)).}
+\caption{Diagrama de dispersión que muestra la relación entre los tiempos de ejecución(en segundos) y la cantidad de vértices.}
 \end{figure}
-\begin{figure}[h]
-\includegraphics[scale=0.7]{Diagramac.eps}
-\caption{Diagrama de dispersión que muestra la relación entre los tiempos de ejecución(en segundos) y la cantidad de aristas,los diferentes colores indican los cinco grafos(grafo1(rojo), grafo2(verde), grafo3(azul), grafo4(amarillo), grafo4(naranja)).}
+\begin{figure}[htbp]
+\includegraphics[scale=0.7]{DiagramAristas.eps}
+\caption{Diagrama de dispersión que muestra la relación entre los tiempos de ejecución(en segundos) y la cantidad de aristas.}
 \end{figure}
  \end{center}
-\newpage
 
-\newpage
-\bibliography{tarea3}
+
+
 \bibliographystyle{plain}
+\bibliography{tarea3}
+
 \end{document}

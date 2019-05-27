@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=latex 2019.2.25)  9 MAY 2019 11:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.2.24)  26 MAY 2019 19:31
 entering extended mode
 **./Tarea_5.tex
 (Tarea_5.tex
@@ -425,10 +425,18 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ("C:\Program Files\basic\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\basic\tex\latex\graphics-def\dvips.def"
-File: dvips.def 2016/07/10 v3.1a Driver-dependent file (DPC,SPQR)
+("C:\Program Files\basic\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Program Files\basic\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\basic\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
 ))
 \Gin@req@height=\dimen110
 \Gin@req@width=\dimen111
@@ -440,7 +448,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ("C:\Program Files\basic\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip49
-\multirow@cntb=\count101
+\multirow@cntb=\count102
 \multirow@dima=\skip50
 \bigstrutjot=\dimen112
 )
@@ -450,11 +458,8 @@ Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 ("C:\Program Files\basic\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: dvips.def on input line 147.
-
-("C:\Program Files\basic\tex\latex\graphics\dvipsnam.def"
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-))
+Package color Info: Driver file: pdftex.def on input line 147.
+)
 ("C:\Program Files\basic\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen113
@@ -467,12 +472,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen120
 \cmidrulekern=\dimen121
 \defaultaddspace=\dimen122
-\@cmidla=\count102
-\@cmidlb=\count103
+\@cmidla=\count103
+\@cmidlb=\count104
 \@aboverulesep=\dimen123
 \@belowrulesep=\dimen124
-\@thisruleclass=\count104
-\@lastruleclass=\count105
+\@thisruleclass=\count105
+\@lastruleclass=\count106
 \@thisrulewidth=\dimen125
 )
 ("C:\Program Files\basic\tex\latex\geometry\geometry.sty"
@@ -488,9 +493,9 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\basic\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count106
-\Gm@cntv=\count107
-\c@Gm@tempcnt=\count108
+\Gm@cnth=\count107
+\Gm@cntv=\count108
+\c@Gm@tempcnt=\count109
 \Gm@bindingoffset=\dimen126
 \Gm@wd@mp=\dimen127
 \Gm@odd@mp=\dimen128
@@ -504,8 +509,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ("C:\Program Files\basic\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\basic\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2018/09/02 1.7 listings language file
+) (Tarea_5.aux
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
 )
-No file Tarea_5.aux.
 \openout1 = `Tarea_5.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
@@ -522,11 +529,67 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
-\c@lstlisting=\count109
+\c@lstlisting=\count110
+
+("C:\Program Files\basic\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count111
+\scratchdimen=\dimen134
+\scratchbox=\box28
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen135
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks21
+) ("C:\Program Files\basic\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\basic\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\basic\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\basic\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\basic\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files\basic\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\basic\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\basic\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -563,50 +626,102 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 56.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 56.
-
-LaTeX Warning: Citation `Nobari' on page 1 undefined on input line 60.
-
-
-LaTeX Warning: Citation `erg' on page 1 undefined on input line 69.
-
-
-LaTeX Warning: Citation `rgf' on page 1 undefined on input line 70.
-
-
-LaTeX Warning: Citation `bg' on page 1 undefined on input line 71.
-
-
-LaTeX Warning: Reference `tab:t2' on page 1 undefined on input line 73.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 78.
-
-LaTeX Warning: Reference `tab:t2' on page 1 undefined on input line 88.
-
-
-LaTeX Warning: Reference `fig1' on page 1 undefined on input line 90.
-
-
-LaTeX Warning: Reference `fig1' on page 1 undefined on input line 90.
-
 ("C:\Program Files\basic\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 ) (Generar_g.py
 [1
 
-])
-File: Grafo1a.eps Graphic file (type eps)
- <Grafo1a.eps>
-File: Grafo2a.eps Graphic file (type eps)
- <Grafo2a.eps>
-File: Grafo3a.eps Graphic file (type eps)
- <Grafo3a.eps>
-File: Grafo4a.eps Graphic file (type eps)
- <Grafo4a.eps>
-File: Grafo5a.eps Graphic file (type eps)
- <Grafo5a.eps>
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
+Package epstopdf Info: Source file: <Grafo1a.eps>
+(epstopdf)                    date: 2019-04-29 22:19:00
+(epstopdf)                    size: 34768 bytes
+(epstopdf)             Output file: <Grafo1a-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:40
+(epstopdf)                    size: 15620 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo1a-eps-converted-to.pd
+f Grafo1a.eps>
+(epstopdf)             \includegraphics on input line 99.
+Package epstopdf Info: Output file is already uptodate.
+
+<Grafo1a-eps-converted-to.pdf, id=12, 885.3075pt x 865.2325pt>
+File: Grafo1a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo1a-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo1a-eps-converted-to.pdf used on input line 99.
+(pdftex.def)             Requested size: 203.61644pt x 198.99928pt.
+Package epstopdf Info: Source file: <Grafo2a.eps>
+(epstopdf)                    date: 2019-04-29 19:09:33
+(epstopdf)                    size: 30245 bytes
+(epstopdf)             Output file: <Grafo2a-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:41
+(epstopdf)                    size: 14462 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo2a-eps-converted-to.pd
+f Grafo2a.eps>
+(epstopdf)             \includegraphics on input line 100.
+Package epstopdf Info: Output file is already uptodate.
+
+<Grafo2a-eps-converted-to.pdf, id=13, 885.3075pt x 865.2325pt>
+File: Grafo2a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo2a-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo2a-eps-converted-to.pdf used on input line 100.
+(pdftex.def)             Requested size: 203.61644pt x 198.99928pt.
+Package epstopdf Info: Source file: <Grafo3a.eps>
+(epstopdf)                    date: 2019-04-29 19:36:41
+(epstopdf)                    size: 41759 bytes
+(epstopdf)             Output file: <Grafo3a-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:42
+(epstopdf)                    size: 17216 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo3a-eps-converted-to.pd
+f Grafo3a.eps>
+(epstopdf)             \includegraphics on input line 101.
+Package epstopdf Info: Output file is already uptodate.
+
+<Grafo3a-eps-converted-to.pdf, id=14, 885.3075pt x 865.2325pt>
+File: Grafo3a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo3a-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo3a-eps-converted-to.pdf used on input line 101.
+(pdftex.def)             Requested size: 203.61644pt x 198.99928pt.
+Package epstopdf Info: Source file: <Grafo4a.eps>
+(epstopdf)                    date: 2019-04-29 19:24:36
+(epstopdf)                    size: 51809 bytes
+(epstopdf)             Output file: <Grafo4a-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:43
+(epstopdf)                    size: 19574 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo4a-eps-converted-to.pd
+f Grafo4a.eps>
+(epstopdf)             \includegraphics on input line 102.
+Package epstopdf Info: Output file is already uptodate.
+
+<Grafo4a-eps-converted-to.pdf, id=15, 885.3075pt x 865.2325pt>
+File: Grafo4a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo4a-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo4a-eps-converted-to.pdf used on input line 102.
+(pdftex.def)             Requested size: 203.61644pt x 198.99928pt.
+Package epstopdf Info: Source file: <Grafo5a.eps>
+(epstopdf)                    date: 2019-04-29 19:34:33
+(epstopdf)                    size: 41089 bytes
+(epstopdf)             Output file: <Grafo5a-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:44
+(epstopdf)                    size: 17064 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo5a-eps-converted-to.pd
+f Grafo5a.eps>
+(epstopdf)             \includegraphics on input line 103.
+Package epstopdf Info: Output file is already uptodate.
+
+<Grafo5a-eps-converted-to.pdf, id=16, 885.3075pt x 865.2325pt>
+File: Grafo5a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo5a-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo5a-eps-converted-to.pdf used on input line 103.
+(pdftex.def)             Requested size: 203.61644pt x 198.99928pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 99--104
 [][] []
  []
@@ -616,25 +731,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--104
 [] []
  []
 
-[2] [3]
-
-LaTeX Warning: Citation `Bosek2018' on page 4 undefined on input line 119.
-
-
-LaTeX Warning: Citation `mf' on page 4 undefined on input line 120.
-
-
-LaTeX Warning: Citation `gc' on page 4 undefined on input line 121.
-
-
-LaTeX Warning: Reference `tab:tab1' on page 4 undefined on input line 133.
-
-
-LaTeX Warning: Reference `tab:tab1' on page 4 undefined on input line 133.
-
-[4] (Leer_grafo.py
+[2] [3 <./Grafo1a-eps-converted-to.pdf> <./Grafo2a-eps-converted-to.pdf> <./Gra
+fo3a-eps-converted-to.pdf> <./Grafo4a-eps-converted-to.pdf> <./Grafo5a-eps-conv
+erted-to.pdf>] [4] (Leer_grafo.py
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
- ("C:\Program Files\basic\tex\latex\base\omscmr.fd"
+
+("C:\Program Files\basic\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
@@ -649,169 +751,492 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 109.
  [6])
+Package epstopdf Info: Source file: <Grafo1mf.eps>
+(epstopdf)                    date: 2019-04-29 19:00:49
+(epstopdf)                    size: 56927 bytes
+(epstopdf)             Output file: <Grafo1mf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:45
+(epstopdf)                    size: 18387 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo1mf-eps-converted-to.p
+df Grafo1mf.eps>
+(epstopdf)             \includegraphics on input line 171.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `fig2' on page 7 undefined on input line 167.
+<Grafo1mf-eps-converted-to.pdf, id=110, 885.3075pt x 865.2325pt>
+File: Grafo1mf-eps-converted-to.pdf Graphic file (type pdf)
 
+<use Grafo1mf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo1mf-eps-converted-to.pdf used on input line 171.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo1cf.eps>
+(epstopdf)                    date: 2019-04-29 22:19:04
+(epstopdf)                    size: 56295 bytes
+(epstopdf)             Output file: <Grafo1cf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:46
+(epstopdf)                    size: 20024 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo1cf-eps-converted-to.p
+df Grafo1cf.eps>
+(epstopdf)             \includegraphics on input line 172.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `fig2' on page 7 undefined on input line 167.
+<Grafo1cf-eps-converted-to.pdf, id=111, 885.3075pt x 865.2325pt>
+File: Grafo1cf-eps-converted-to.pdf Graphic file (type pdf)
 
-File: Grafo1mf.eps Graphic file (type eps)
-<Grafo1mf.eps>
-File: Grafo1cf.eps Graphic file (type eps)
- <Grafo1cf.eps>
-File: Grafo1bf.eps Graphic file (type eps)
- <Grafo1bf.eps>
-File: Grafo1af.eps Graphic file (type eps)
- <Grafo1af.eps>
-Overfull \hbox (10.16626pt too wide) in paragraph at lines 171--175
+<use Grafo1cf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo1cf-eps-converted-to.pdf used on input line 172.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo1bf.eps>
+(epstopdf)                    date: 2019-04-29 18:49:32
+(epstopdf)                    size: 52707 bytes
+(epstopdf)             Output file: <Grafo1bf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:47
+(epstopdf)                    size: 19561 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo1bf-eps-converted-to.p
+df Grafo1bf.eps>
+(epstopdf)             \includegraphics on input line 173.
+Package epstopdf Info: Output file is already uptodate.
+
+<Grafo1bf-eps-converted-to.pdf, id=112, 885.3075pt x 865.2325pt>
+File: Grafo1bf-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo1bf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo1bf-eps-converted-to.pdf used on input line 173.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo1af.eps>
+(epstopdf)                    date: 2019-04-29 18:47:07
+(epstopdf)                    size: 55330 bytes
+(epstopdf)             Output file: <Grafo1af-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:48
+(epstopdf)                    size: 19882 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo1af-eps-converted-to.p
+df Grafo1af.eps>
+(epstopdf)             \includegraphics on input line 174.
+Package epstopdf Info: Output file is already uptodate.
+
+<Grafo1af-eps-converted-to.pdf, id=113, 885.3075pt x 865.2325pt>
+File: Grafo1af-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo1af-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo1af-eps-converted-to.pdf used on input line 174.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+
+Overfull \hbox (10.16498pt too wide) in paragraph at lines 171--175
 [][] []
  []
 
 
-Overfull \hbox (10.16626pt too wide) in paragraph at lines 171--175
+Overfull \hbox (10.16498pt too wide) in paragraph at lines 171--175
 [] [] 
  []
 
+Package epstopdf Info: Source file: <Grafo2mf.eps>
+(epstopdf)                    date: 2019-04-29 19:03:01
+(epstopdf)                    size: 49496 bytes
+(epstopdf)             Output file: <Grafo2mf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:48
+(epstopdf)                    size: 16613 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo2mf-eps-converted-to.p
+df Grafo2mf.eps>
+(epstopdf)             \includegraphics on input line 184.
+Package epstopdf Info: Output file is already uptodate.
+<Grafo2mf-eps-converted-to.pdf, id=114, 885.3075pt x 865.2325pt>
+File: Grafo2mf-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `fig3' on page 7 undefined on input line 180.
+<use Grafo2mf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo2mf-eps-converted-to.pdf used on input line 184.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo2cf.eps>
+(epstopdf)                    date: 2019-04-29 19:08:24
+(epstopdf)                    size: 46108 bytes
+(epstopdf)             Output file: <Grafo2cf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:49
+(epstopdf)                    size: 17531 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo2cf-eps-converted-to.p
+df Grafo2cf.eps>
+(epstopdf)             \includegraphics on input line 185.
+Package epstopdf Info: Output file is already uptodate.
 
+<Grafo2cf-eps-converted-to.pdf, id=115, 885.3075pt x 865.2325pt>
+File: Grafo2cf-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `fig3' on page 7 undefined on input line 180.
+<use Grafo2cf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo2cf-eps-converted-to.pdf used on input line 185.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo2bf.eps>
+(epstopdf)                    date: 2019-04-29 19:09:37
+(epstopdf)                    size: 47458 bytes
+(epstopdf)             Output file: <Grafo2bf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:50
+(epstopdf)                    size: 17307 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo2bf-eps-converted-to.p
+df Grafo2bf.eps>
+(epstopdf)             \includegraphics on input line 186.
+Package epstopdf Info: Output file is already uptodate.
 
-File: Grafo2mf.eps Graphic file (type eps)
-<Grafo2mf.eps>
-File: Grafo2cf.eps Graphic file (type eps)
- <Grafo2cf.eps>
-File: Grafo2bf.eps Graphic file (type eps)
- <Grafo2bf.eps>
-File: Grafo2af.eps Graphic file (type eps)
- <Grafo2af.eps>
-Overfull \hbox (10.16626pt too wide) in paragraph at lines 184--188
+<Grafo2bf-eps-converted-to.pdf, id=116, 885.3075pt x 865.2325pt>
+File: Grafo2bf-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo2bf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo2bf-eps-converted-to.pdf used on input line 186.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo2af.eps>
+(epstopdf)                    date: 2019-04-29 19:05:53
+(epstopdf)                    size: 46744 bytes
+(epstopdf)             Output file: <Grafo2af-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:51
+(epstopdf)                    size: 17508 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo2af-eps-converted-to.p
+df Grafo2af.eps>
+(epstopdf)             \includegraphics on input line 187.
+Package epstopdf Info: Output file is already uptodate.
+
+<Grafo2af-eps-converted-to.pdf, id=117, 885.3075pt x 865.2325pt>
+File: Grafo2af-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo2af-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo2af-eps-converted-to.pdf used on input line 187.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+
+Overfull \hbox (10.16498pt too wide) in paragraph at lines 184--188
 [][] []
  []
 
 
-Overfull \hbox (10.16626pt too wide) in paragraph at lines 184--188
+Overfull \hbox (10.16498pt too wide) in paragraph at lines 184--188
 [] [] 
  []
 
+Package epstopdf Info: Source file: <Grafo3mf.eps>
+(epstopdf)                    date: 2019-04-29 19:17:39
+(epstopdf)                    size: 71093 bytes
+(epstopdf)             Output file: <Grafo3mf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:52
+(epstopdf)                    size: 20987 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo3mf-eps-converted-to.p
+df Grafo3mf.eps>
+(epstopdf)             \includegraphics on input line 197.
+Package epstopdf Info: Output file is already uptodate.
+<Grafo3mf-eps-converted-to.pdf, id=118, 885.3075pt x 865.2325pt>
+File: Grafo3mf-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `fig4' on page 7 undefined on input line 193.
+<use Grafo3mf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo3mf-eps-converted-to.pdf used on input line 197.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo3cf.eps>
+(epstopdf)                    date: 2019-04-29 19:36:46
+(epstopdf)                    size: 68141 bytes
+(epstopdf)             Output file: <Grafo3cf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:53
+(epstopdf)                    size: 21134 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo3cf-eps-converted-to.p
+df Grafo3cf.eps>
+(epstopdf)             \includegraphics on input line 198.
+Package epstopdf Info: Output file is already uptodate.
 
+<Grafo3cf-eps-converted-to.pdf, id=119, 885.3075pt x 865.2325pt>
+File: Grafo3cf-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `fig4' on page 7 undefined on input line 193.
+<use Grafo3cf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo3cf-eps-converted-to.pdf used on input line 198.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo3bf.eps>
+(epstopdf)                    date: 2019-04-29 19:13:32
+(epstopdf)                    size: 71418 bytes
+(epstopdf)             Output file: <Grafo3bf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:54
+(epstopdf)                    size: 22505 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo3bf-eps-converted-to.p
+df Grafo3bf.eps>
+(epstopdf)             \includegraphics on input line 199.
+Package epstopdf Info: Output file is already uptodate.
 
-File: Grafo3mf.eps Graphic file (type eps)
-<Grafo3mf.eps>
-File: Grafo3cf.eps Graphic file (type eps)
- <Grafo3cf.eps>
-File: Grafo3bf.eps Graphic file (type eps)
- <Grafo3bf.eps>
-File: Grafo3af.eps Graphic file (type eps)
- <Grafo3af.eps>
-Overfull \hbox (10.16626pt too wide) in paragraph at lines 197--201
+<Grafo3bf-eps-converted-to.pdf, id=120, 885.3075pt x 865.2325pt>
+File: Grafo3bf-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo3bf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo3bf-eps-converted-to.pdf used on input line 199.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo3af.eps>
+(epstopdf)                    date: 2019-04-29 19:12:25
+(epstopdf)                    size: 65447 bytes
+(epstopdf)             Output file: <Grafo3af-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:55
+(epstopdf)                    size: 20913 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo3af-eps-converted-to.p
+df Grafo3af.eps>
+(epstopdf)             \includegraphics on input line 200.
+Package epstopdf Info: Output file is already uptodate.
+
+<Grafo3af-eps-converted-to.pdf, id=121, 885.3075pt x 865.2325pt>
+File: Grafo3af-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo3af-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo3af-eps-converted-to.pdf used on input line 200.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+
+Overfull \hbox (10.16498pt too wide) in paragraph at lines 197--201
 [][] []
  []
 
 
-Overfull \hbox (10.16626pt too wide) in paragraph at lines 197--201
+Overfull \hbox (10.16498pt too wide) in paragraph at lines 197--201
 [] [] 
  []
 
+Package epstopdf Info: Source file: <Grafo4mf.eps>
+(epstopdf)                    date: 2019-04-29 19:21:20
+(epstopdf)                    size: 89166 bytes
+(epstopdf)             Output file: <Grafo4mf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:56
+(epstopdf)                    size: 27565 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo4mf-eps-converted-to.p
+df Grafo4mf.eps>
+(epstopdf)             \includegraphics on input line 210.
+Package epstopdf Info: Output file is already uptodate.
+<Grafo4mf-eps-converted-to.pdf, id=122, 885.3075pt x 865.2325pt>
+File: Grafo4mf-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `fig5' on page 7 undefined on input line 206.
+<use Grafo4mf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo4mf-eps-converted-to.pdf used on input line 210.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo4cf.eps>
+(epstopdf)                    date: 2019-04-29 19:24:40
+(epstopdf)                    size: 90689 bytes
+(epstopdf)             Output file: <Grafo4cf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:57
+(epstopdf)                    size: 27281 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo4cf-eps-converted-to.p
+df Grafo4cf.eps>
+(epstopdf)             \includegraphics on input line 211.
+Package epstopdf Info: Output file is already uptodate.
 
+<Grafo4cf-eps-converted-to.pdf, id=123, 885.3075pt x 865.2325pt>
+File: Grafo4cf-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `fig5' on page 7 undefined on input line 206.
+<use Grafo4cf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo4cf-eps-converted-to.pdf used on input line 211.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo4bf.eps>
+(epstopdf)                    date: 2019-04-29 19:23:56
+(epstopdf)                    size: 88435 bytes
+(epstopdf)             Output file: <Grafo4bf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:58
+(epstopdf)                    size: 25867 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo4bf-eps-converted-to.p
+df Grafo4bf.eps>
+(epstopdf)             \includegraphics on input line 212.
+Package epstopdf Info: Output file is already uptodate.
 
-File: Grafo4mf.eps Graphic file (type eps)
-<Grafo4mf.eps>
-File: Grafo4cf.eps Graphic file (type eps)
- <Grafo4cf.eps>
-File: Grafo4bf.eps Graphic file (type eps)
- <Grafo4bf.eps>
-File: Grafo4af.eps Graphic file (type eps)
- <Grafo4af.eps>
-Overfull \hbox (10.16626pt too wide) in paragraph at lines 210--214
+<Grafo4bf-eps-converted-to.pdf, id=124, 885.3075pt x 865.2325pt>
+File: Grafo4bf-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo4bf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo4bf-eps-converted-to.pdf used on input line 212.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo4af.eps>
+(epstopdf)                    date: 2019-04-29 19:29:35
+(epstopdf)                    size: 82990 bytes
+(epstopdf)             Output file: <Grafo4af-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:26:59
+(epstopdf)                    size: 24560 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo4af-eps-converted-to.p
+df Grafo4af.eps>
+(epstopdf)             \includegraphics on input line 213.
+Package epstopdf Info: Output file is already uptodate.
+
+<Grafo4af-eps-converted-to.pdf, id=125, 885.3075pt x 865.2325pt>
+File: Grafo4af-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo4af-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo4af-eps-converted-to.pdf used on input line 213.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+
+Overfull \hbox (10.16498pt too wide) in paragraph at lines 210--214
 [][] []
  []
 
 
-Overfull \hbox (10.16626pt too wide) in paragraph at lines 210--214
+Overfull \hbox (10.16498pt too wide) in paragraph at lines 210--214
 [] [] 
  []
 
+Package epstopdf Info: Source file: <Grafo5mf.eps>
+(epstopdf)                    date: 2019-04-29 19:34:37
+(epstopdf)                    size: 69067 bytes
+(epstopdf)             Output file: <Grafo5mf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:00
+(epstopdf)                    size: 20151 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo5mf-eps-converted-to.p
+df Grafo5mf.eps>
+(epstopdf)             \includegraphics on input line 223.
+Package epstopdf Info: Output file is already uptodate.
+<Grafo5mf-eps-converted-to.pdf, id=126, 885.3075pt x 865.2325pt>
+File: Grafo5mf-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `fig6' on page 7 undefined on input line 219.
+<use Grafo5mf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo5mf-eps-converted-to.pdf used on input line 223.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo5cf.eps>
+(epstopdf)                    date: 2019-04-29 19:32:23
+(epstopdf)                    size: 67746 bytes
+(epstopdf)             Output file: <Grafo5cf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:01
+(epstopdf)                    size: 20194 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo5cf-eps-converted-to.p
+df Grafo5cf.eps>
+(epstopdf)             \includegraphics on input line 224.
+Package epstopdf Info: Output file is already uptodate.
 
+<Grafo5cf-eps-converted-to.pdf, id=127, 885.3075pt x 865.2325pt>
+File: Grafo5cf-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `fig6' on page 7 undefined on input line 219.
+<use Grafo5cf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo5cf-eps-converted-to.pdf used on input line 224.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo5bf.eps>
+(epstopdf)                    date: 2019-04-29 19:31:50
+(epstopdf)                    size: 69590 bytes
+(epstopdf)             Output file: <Grafo5bf-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:01
+(epstopdf)                    size: 21509 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo5bf-eps-converted-to.p
+df Grafo5bf.eps>
+(epstopdf)             \includegraphics on input line 225.
+Package epstopdf Info: Output file is already uptodate.
 
-File: Grafo5mf.eps Graphic file (type eps)
-<Grafo5mf.eps>
-File: Grafo5cf.eps Graphic file (type eps)
- <Grafo5cf.eps>
-File: Grafo5bf.eps Graphic file (type eps)
- <Grafo5bf.eps>
-File: Grafo5af.eps Graphic file (type eps)
- <Grafo5af.eps>
-Overfull \hbox (10.16626pt too wide) in paragraph at lines 223--227
+<Grafo5bf-eps-converted-to.pdf, id=128, 885.3075pt x 865.2325pt>
+File: Grafo5bf-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo5bf-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo5bf-eps-converted-to.pdf used on input line 225.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+Package epstopdf Info: Source file: <Grafo5af.eps>
+(epstopdf)                    date: 2019-04-29 19:30:57
+(epstopdf)                    size: 63391 bytes
+(epstopdf)             Output file: <Grafo5af-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:02
+(epstopdf)                    size: 20755 bytes
+(epstopdf)             Command: <epstopdf --outfile=Grafo5af-eps-converted-to.p
+df Grafo5af.eps>
+(epstopdf)             \includegraphics on input line 226.
+Package epstopdf Info: Output file is already uptodate.
+
+<Grafo5af-eps-converted-to.pdf, id=129, 885.3075pt x 865.2325pt>
+File: Grafo5af-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Grafo5af-eps-converted-to.pdf>
+Package pdftex.def Info: Grafo5af-eps-converted-to.pdf used on input line 226.
+(pdftex.def)             Requested size: 265.5943pt x 259.57175pt.
+
+Overfull \hbox (10.16498pt too wide) in paragraph at lines 223--227
 [][] []
  []
 
 
-Overfull \hbox (10.16626pt too wide) in paragraph at lines 223--227
+Overfull \hbox (10.16498pt too wide) in paragraph at lines 223--227
 [] [] 
  []
 
-[7] [8] [9] [10] [11] [12]
+[7] [8 <./Grafo1mf-eps-converted-to.pdf> <./Grafo1cf-eps-converted-to.pdf> <./G
+rafo1bf-eps-converted-to.pdf> <./Grafo1af-eps-converted-to.pdf>] [9 <./Grafo2mf
+-eps-converted-to.pdf> <./Grafo2cf-eps-converted-to.pdf> <./Grafo2bf-eps-conver
+ted-to.pdf> <./Grafo2af-eps-converted-to.pdf>] [10 <./Grafo3mf-eps-converted-to
+.pdf> <./Grafo3cf-eps-converted-to.pdf> <./Grafo3bf-eps-converted-to.pdf> <./Gr
+afo3af-eps-converted-to.pdf>] [11 <./Grafo4mf-eps-converted-to.pdf> <./Grafo4cf
+-eps-converted-to.pdf> <./Grafo4bf-eps-converted-to.pdf> <./Grafo4af-eps-conver
+ted-to.pdf>] [12 <./Grafo5mf-eps-converted-to.pdf> <./Grafo5cf-eps-converted-to
+.pdf> <./Grafo5bf-eps-converted-to.pdf> <./Grafo5af-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <GradoGrafo1D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:01
+(epstopdf)                    size: 25777 bytes
+(epstopdf)             Output file: <GradoGrafo1D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:03
+(epstopdf)                    size: 15433 bytes
+(epstopdf)             Command: <epstopdf --outfile=GradoGrafo1D-eps-converted-
+to.pdf GradoGrafo1D.eps>
+(epstopdf)             \includegraphics on input line 240.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `fig7' on page 13 undefined on input line 236.
+<GradoGrafo1D-eps-converted-to.pdf, id=429, 614.295pt x 605.26125pt>
+File: GradoGrafo1D-eps-converted-to.pdf Graphic file (type pdf)
 
+<use GradoGrafo1D-eps-converted-to.pdf>
+Package pdftex.def Info: GradoGrafo1D-eps-converted-to.pdf used on input line 2
+40.
+(pdftex.def)             Requested size: 215.00647pt x 211.8446pt.
+Package epstopdf Info: Source file: <GradoGrafo2D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:12
+(epstopdf)                    size: 25776 bytes
+(epstopdf)             Output file: <GradoGrafo2D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:04
+(epstopdf)                    size: 15389 bytes
+(epstopdf)             Command: <epstopdf --outfile=GradoGrafo2D-eps-converted-
+to.pdf GradoGrafo2D.eps>
+(epstopdf)             \includegraphics on input line 241.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `fig8' on page 13 undefined on input line 236.
+<GradoGrafo2D-eps-converted-to.pdf, id=430, 614.295pt x 605.26125pt>
+File: GradoGrafo2D-eps-converted-to.pdf Graphic file (type pdf)
 
+<use GradoGrafo2D-eps-converted-to.pdf>
+Package pdftex.def Info: GradoGrafo2D-eps-converted-to.pdf used on input line 2
+41.
+(pdftex.def)             Requested size: 215.00647pt x 211.8446pt.
+Package epstopdf Info: Source file: <GradoGrafo3D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:20
+(epstopdf)                    size: 26907 bytes
+(epstopdf)             Output file: <GradoGrafo3D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:05
+(epstopdf)                    size: 15638 bytes
+(epstopdf)             Command: <epstopdf --outfile=GradoGrafo3D-eps-converted-
+to.pdf GradoGrafo3D.eps>
+(epstopdf)             \includegraphics on input line 242.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `fig9' on page 13 undefined on input line 236.
+<GradoGrafo3D-eps-converted-to.pdf, id=431, 614.295pt x 605.26125pt>
+File: GradoGrafo3D-eps-converted-to.pdf Graphic file (type pdf)
 
+<use GradoGrafo3D-eps-converted-to.pdf>
+Package pdftex.def Info: GradoGrafo3D-eps-converted-to.pdf used on input line 2
+42.
+(pdftex.def)             Requested size: 215.00647pt x 211.8446pt.
+Package epstopdf Info: Source file: <GradoGrafo4D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:28
+(epstopdf)                    size: 29794 bytes
+(epstopdf)             Output file: <GradoGrafo4D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:07
+(epstopdf)                    size: 17251 bytes
+(epstopdf)             Command: <epstopdf --outfile=GradoGrafo4D-eps-converted-
+to.pdf GradoGrafo4D.eps>
+(epstopdf)             \includegraphics on input line 243.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `fig10' on page 13 undefined on input line 236.
+<GradoGrafo4D-eps-converted-to.pdf, id=432, 620.3175pt x 605.26125pt>
+File: GradoGrafo4D-eps-converted-to.pdf Graphic file (type pdf)
 
+<use GradoGrafo4D-eps-converted-to.pdf>
+Package pdftex.def Info: GradoGrafo4D-eps-converted-to.pdf used on input line 2
+43.
+(pdftex.def)             Requested size: 217.11438pt x 211.8446pt.
+Package epstopdf Info: Source file: <GradoGrafo5D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:37
+(epstopdf)                    size: 25765 bytes
+(epstopdf)             Output file: <GradoGrafo5D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:07
+(epstopdf)                    size: 15421 bytes
+(epstopdf)             Command: <epstopdf --outfile=GradoGrafo5D-eps-converted-
+to.pdf GradoGrafo5D.eps>
+(epstopdf)             \includegraphics on input line 244.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `fig11' on page 13 undefined on input line 236.
+<GradoGrafo5D-eps-converted-to.pdf, id=433, 614.295pt x 605.26125pt>
+File: GradoGrafo5D-eps-converted-to.pdf Graphic file (type pdf)
 
+<use GradoGrafo5D-eps-converted-to.pdf>
+Package pdftex.def Info: GradoGrafo5D-eps-converted-to.pdf used on input line 2
+44.
+(pdftex.def)             Requested size: 215.00647pt x 211.8446pt.
 
-LaTeX Warning: Reference `fig12' on page 13 undefined on input line 236.
-
-
-LaTeX Warning: Reference `fig7' on page 13 undefined on input line 236.
-
-
-LaTeX Warning: Reference `fig8' on page 13 undefined on input line 236.
-
-
-LaTeX Warning: Reference `fig9' on page 13 undefined on input line 236.
-
-
-LaTeX Warning: Reference `fig10' on page 13 undefined on input line 236.
-
-
-LaTeX Warning: Reference `fig11' on page 13 undefined on input line 236.
-
-
-LaTeX Warning: Reference `fig12' on page 13 undefined on input line 236.
-
-File: GradoGrafo1D.eps Graphic file (type eps)
-<GradoGrafo1D.eps>
-File: GradoGrafo2D.eps Graphic file (type eps)
- <GradoGrafo2D.eps>
-File: GradoGrafo3D.eps Graphic file (type eps)
- <GradoGrafo3D.eps>
-File: GradoGrafo4D.eps Graphic file (type eps)
- <GradoGrafo4D.eps>
-File: GradoGrafo5D.eps Graphic file (type eps)
-
-<GradoGrafo5D.eps>
 Underfull \hbox (badness 10000) in paragraph at lines 240--245
 [][] []
  []
@@ -822,19 +1247,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--245
  []
 
 
-LaTeX Warning: Float too large for page by 10.50343pt on input line 248.
+LaTeX Warning: Float too large for page by 10.50188pt on input line 248.
 
-File: CoefAgGrafo1D.eps Graphic file (type eps)
-<CoefAgGrafo1D.eps>
-File: CoefAgGrafo2D.eps Graphic file (type eps)
- <CoefAgGrafo2D.eps>
-File: CoefAgGrafo3D.eps Graphic file (type eps)
- <CoefAgGrafo3D.eps>
-File: CoefAgGrafo4D.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <CoefAgGrafo1D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:04
+(epstopdf)                    size: 26908 bytes
+(epstopdf)             Output file: <CoefAgGrafo1D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:09
+(epstopdf)                    size: 16154 bytes
+(epstopdf)             Command: <epstopdf --outfile=CoefAgGrafo1D-eps-converted
+-to.pdf CoefAgGrafo1D.eps>
+(epstopdf)             \includegraphics on input line 252.
+Package epstopdf Info: Output file is already uptodate.
+<CoefAgGrafo1D-eps-converted-to.pdf, id=434, 614.295pt x 605.26125pt>
+File: CoefAgGrafo1D-eps-converted-to.pdf Graphic file (type pdf)
 
-<CoefAgGrafo4D.eps>
-File: CoefAgGrafo5D.eps Graphic file (type eps)
- <CoefAgGrafo5D.eps>
+<use CoefAgGrafo1D-eps-converted-to.pdf>
+Package pdftex.def Info: CoefAgGrafo1D-eps-converted-to.pdf used on input line 
+252.
+(pdftex.def)             Requested size: 215.00647pt x 211.8446pt.
+Package epstopdf Info: Source file: <CoefAgGrafo2D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:13
+(epstopdf)                    size: 27436 bytes
+(epstopdf)             Output file: <CoefAgGrafo2D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:10
+(epstopdf)                    size: 16189 bytes
+(epstopdf)             Command: <epstopdf --outfile=CoefAgGrafo2D-eps-converted
+-to.pdf CoefAgGrafo2D.eps>
+(epstopdf)             \includegraphics on input line 253.
+Package epstopdf Info: Output file is already uptodate.
+
+<CoefAgGrafo2D-eps-converted-to.pdf, id=435, 614.295pt x 605.26125pt>
+File: CoefAgGrafo2D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CoefAgGrafo2D-eps-converted-to.pdf>
+Package pdftex.def Info: CoefAgGrafo2D-eps-converted-to.pdf used on input line 
+253.
+(pdftex.def)             Requested size: 215.00647pt x 211.8446pt.
+Package epstopdf Info: Source file: <CoefAgGrafo3D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:21
+(epstopdf)                    size: 27177 bytes
+(epstopdf)             Output file: <CoefAgGrafo3D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:11
+(epstopdf)                    size: 15851 bytes
+(epstopdf)             Command: <epstopdf --outfile=CoefAgGrafo3D-eps-converted
+-to.pdf CoefAgGrafo3D.eps>
+(epstopdf)             \includegraphics on input line 254.
+Package epstopdf Info: Output file is already uptodate.
+
+<CoefAgGrafo3D-eps-converted-to.pdf, id=436, 611.28375pt x 605.26125pt>
+File: CoefAgGrafo3D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CoefAgGrafo3D-eps-converted-to.pdf>
+Package pdftex.def Info: CoefAgGrafo3D-eps-converted-to.pdf used on input line 
+254.
+(pdftex.def)             Requested size: 213.95251pt x 211.8446pt.
+Package epstopdf Info: Source file: <CoefAgGrafo4D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:29
+(epstopdf)                    size: 29716 bytes
+(epstopdf)             Output file: <CoefAgGrafo4D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:12
+(epstopdf)                    size: 17634 bytes
+(epstopdf)             Command: <epstopdf --outfile=CoefAgGrafo4D-eps-converted
+-to.pdf CoefAgGrafo4D.eps>
+(epstopdf)             \includegraphics on input line 255.
+Package epstopdf Info: Output file is already uptodate.
+
+<CoefAgGrafo4D-eps-converted-to.pdf, id=437, 618.31pt x 605.26125pt>
+File: CoefAgGrafo4D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CoefAgGrafo4D-eps-converted-to.pdf>
+Package pdftex.def Info: CoefAgGrafo4D-eps-converted-to.pdf used on input line 
+255.
+(pdftex.def)             Requested size: 216.41174pt x 211.8446pt.
+Package epstopdf Info: Source file: <CoefAgGrafo5D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:38
+(epstopdf)                    size: 26764 bytes
+(epstopdf)             Output file: <CoefAgGrafo5D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:13
+(epstopdf)                    size: 15815 bytes
+(epstopdf)             Command: <epstopdf --outfile=CoefAgGrafo5D-eps-converted
+-to.pdf CoefAgGrafo5D.eps>
+(epstopdf)             \includegraphics on input line 256.
+Package epstopdf Info: Output file is already uptodate.
+
+<CoefAgGrafo5D-eps-converted-to.pdf, id=438, 611.28375pt x 605.26125pt>
+File: CoefAgGrafo5D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CoefAgGrafo5D-eps-converted-to.pdf>
+Package pdftex.def Info: CoefAgGrafo5D-eps-converted-to.pdf used on input line 
+256.
+(pdftex.def)             Requested size: 213.95251pt x 211.8446pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 252--257
 [][] []
  []
@@ -845,19 +1349,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--257
  []
 
 
-LaTeX Warning: Float too large for page by 10.50343pt on input line 261.
+LaTeX Warning: Float too large for page by 10.50188pt on input line 261.
 
-File: CentCerGrafo1D.eps Graphic file (type eps)
-<CentCerGrafo1D.eps>
-File: CentCerGrafo2D.eps Graphic file (type eps)
- <CentCerGrafo2D.eps>
-File: CentCerGrafo3D.eps Graphic file (type eps)
- <CentCerGrafo3D.eps>
-File: CentCerGrafo4D.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <CentCerGrafo1D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:06
+(epstopdf)                    size: 28858 bytes
+(epstopdf)             Output file: <CentCerGrafo1D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:14
+(epstopdf)                    size: 15925 bytes
+(epstopdf)             Command: <epstopdf --outfile=CentCerGrafo1D-eps-converte
+d-to.pdf CentCerGrafo1D.eps>
+(epstopdf)             \includegraphics on input line 264.
+Package epstopdf Info: Output file is already uptodate.
+<CentCerGrafo1D-eps-converted-to.pdf, id=439, 611.28375pt x 605.26125pt>
+File: CentCerGrafo1D-eps-converted-to.pdf Graphic file (type pdf)
 
-<CentCerGrafo4D.eps>
-File: CentCerGrafo5D.eps Graphic file (type eps)
- <CentCerGrafo5D.eps>
+<use CentCerGrafo1D-eps-converted-to.pdf>
+Package pdftex.def Info: CentCerGrafo1D-eps-converted-to.pdf used on input line
+ 264.
+(pdftex.def)             Requested size: 213.95251pt x 211.8446pt.
+Package epstopdf Info: Source file: <CentCerGrafo2D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:15
+(epstopdf)                    size: 28016 bytes
+(epstopdf)             Output file: <CentCerGrafo2D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:15
+(epstopdf)                    size: 15884 bytes
+(epstopdf)             Command: <epstopdf --outfile=CentCerGrafo2D-eps-converte
+d-to.pdf CentCerGrafo2D.eps>
+(epstopdf)             \includegraphics on input line 265.
+Package epstopdf Info: Output file is already uptodate.
+
+<CentCerGrafo2D-eps-converted-to.pdf, id=440, 611.28375pt x 605.26125pt>
+File: CentCerGrafo2D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CentCerGrafo2D-eps-converted-to.pdf>
+Package pdftex.def Info: CentCerGrafo2D-eps-converted-to.pdf used on input line
+ 265.
+(pdftex.def)             Requested size: 213.95251pt x 211.8446pt.
+Package epstopdf Info: Source file: <CentCerGrafo3D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:23
+(epstopdf)                    size: 24399 bytes
+(epstopdf)             Output file: <CentCerGrafo3D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:16
+(epstopdf)                    size: 14275 bytes
+(epstopdf)             Command: <epstopdf --outfile=CentCerGrafo3D-eps-converte
+d-to.pdf CentCerGrafo3D.eps>
+(epstopdf)             \includegraphics on input line 266.
+Package epstopdf Info: Output file is already uptodate.
+
+<CentCerGrafo3D-eps-converted-to.pdf, id=441, 611.28375pt x 605.26125pt>
+File: CentCerGrafo3D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CentCerGrafo3D-eps-converted-to.pdf>
+Package pdftex.def Info: CentCerGrafo3D-eps-converted-to.pdf used on input line
+ 266.
+(pdftex.def)             Requested size: 213.95251pt x 211.8446pt.
+Package epstopdf Info: Source file: <CentCerGrafo4D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:31
+(epstopdf)                    size: 28967 bytes
+(epstopdf)             Output file: <CentCerGrafo4D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:18
+(epstopdf)                    size: 14702 bytes
+(epstopdf)             Command: <epstopdf --outfile=CentCerGrafo4D-eps-converte
+d-to.pdf CentCerGrafo4D.eps>
+(epstopdf)             \includegraphics on input line 267.
+Package epstopdf Info: Output file is already uptodate.
+
+<CentCerGrafo4D-eps-converted-to.pdf, id=442, 620.3175pt x 605.26125pt>
+File: CentCerGrafo4D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CentCerGrafo4D-eps-converted-to.pdf>
+Package pdftex.def Info: CentCerGrafo4D-eps-converted-to.pdf used on input line
+ 267.
+(pdftex.def)             Requested size: 217.11438pt x 211.8446pt.
+Package epstopdf Info: Source file: <CentCerGrafo5D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:39
+(epstopdf)                    size: 27526 bytes
+(epstopdf)             Output file: <CentCerGrafo5D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:19
+(epstopdf)                    size: 15846 bytes
+(epstopdf)             Command: <epstopdf --outfile=CentCerGrafo5D-eps-converte
+d-to.pdf CentCerGrafo5D.eps>
+(epstopdf)             \includegraphics on input line 268.
+Package epstopdf Info: Output file is already uptodate.
+
+<CentCerGrafo5D-eps-converted-to.pdf, id=443, 611.28375pt x 605.26125pt>
+File: CentCerGrafo5D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CentCerGrafo5D-eps-converted-to.pdf>
+Package pdftex.def Info: CentCerGrafo5D-eps-converted-to.pdf used on input line
+ 268.
+(pdftex.def)             Requested size: 213.95251pt x 211.8446pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 264--269
 [][] []
  []
@@ -868,19 +1451,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--269
  []
 
 
-LaTeX Warning: Float too large for page by 10.50343pt on input line 272.
+LaTeX Warning: Float too large for page by 10.50188pt on input line 272.
 
-File: CentCagGrafo1D.eps Graphic file (type eps)
-<CentCagGrafo1D.eps>
-File: CentCagGrafo2D.eps Graphic file (type eps)
- <CentCagGrafo2D.eps>
-File: CentCagGrafo3D.eps Graphic file (type eps)
- <CentCagGrafo3D.eps>
-File: CentCagGrafo4D.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <CentCagGrafo1D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:07
+(epstopdf)                    size: 27848 bytes
+(epstopdf)             Output file: <CentCagGrafo1D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:20
+(epstopdf)                    size: 15774 bytes
+(epstopdf)             Command: <epstopdf --outfile=CentCagGrafo1D-eps-converte
+d-to.pdf CentCagGrafo1D.eps>
+(epstopdf)             \includegraphics on input line 276.
+Package epstopdf Info: Output file is already uptodate.
+<CentCagGrafo1D-eps-converted-to.pdf, id=444, 611.28375pt x 605.26125pt>
+File: CentCagGrafo1D-eps-converted-to.pdf Graphic file (type pdf)
 
-<CentCagGrafo4D.eps>
-File: CentCagGrafo5D.eps Graphic file (type eps)
- <CentCagGrafo5D.eps>
+<use CentCagGrafo1D-eps-converted-to.pdf>
+Package pdftex.def Info: CentCagGrafo1D-eps-converted-to.pdf used on input line
+ 276.
+(pdftex.def)             Requested size: 213.95251pt x 211.8446pt.
+Package epstopdf Info: Source file: <CentCagGrafo2D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:16
+(epstopdf)                    size: 28340 bytes
+(epstopdf)             Output file: <CentCagGrafo2D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:21
+(epstopdf)                    size: 16540 bytes
+(epstopdf)             Command: <epstopdf --outfile=CentCagGrafo2D-eps-converte
+d-to.pdf CentCagGrafo2D.eps>
+(epstopdf)             \includegraphics on input line 277.
+Package epstopdf Info: Output file is already uptodate.
+
+<CentCagGrafo2D-eps-converted-to.pdf, id=445, 611.28375pt x 605.26125pt>
+File: CentCagGrafo2D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CentCagGrafo2D-eps-converted-to.pdf>
+Package pdftex.def Info: CentCagGrafo2D-eps-converted-to.pdf used on input line
+ 277.
+(pdftex.def)             Requested size: 213.95251pt x 211.8446pt.
+Package epstopdf Info: Source file: <CentCagGrafo3D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:24
+(epstopdf)                    size: 30683 bytes
+(epstopdf)             Output file: <CentCagGrafo3D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:22
+(epstopdf)                    size: 16138 bytes
+(epstopdf)             Command: <epstopdf --outfile=CentCagGrafo3D-eps-converte
+d-to.pdf CentCagGrafo3D.eps>
+(epstopdf)             \includegraphics on input line 278.
+Package epstopdf Info: Output file is already uptodate.
+
+<CentCagGrafo3D-eps-converted-to.pdf, id=446, 620.3175pt x 605.26125pt>
+File: CentCagGrafo3D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CentCagGrafo3D-eps-converted-to.pdf>
+Package pdftex.def Info: CentCagGrafo3D-eps-converted-to.pdf used on input line
+ 278.
+(pdftex.def)             Requested size: 217.11438pt x 211.8446pt.
+Package epstopdf Info: Source file: <CentCagGrafo4D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:33
+(epstopdf)                    size: 27520 bytes
+(epstopdf)             Output file: <CentCagGrafo4D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:23
+(epstopdf)                    size: 15764 bytes
+(epstopdf)             Command: <epstopdf --outfile=CentCagGrafo4D-eps-converte
+d-to.pdf CentCagGrafo4D.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+
+<CentCagGrafo4D-eps-converted-to.pdf, id=447, 611.28375pt x 605.26125pt>
+File: CentCagGrafo4D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CentCagGrafo4D-eps-converted-to.pdf>
+Package pdftex.def Info: CentCagGrafo4D-eps-converted-to.pdf used on input line
+ 279.
+(pdftex.def)             Requested size: 213.95251pt x 211.8446pt.
+Package epstopdf Info: Source file: <CentCagGrafo5D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:41
+(epstopdf)                    size: 28125 bytes
+(epstopdf)             Output file: <CentCagGrafo5D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:24
+(epstopdf)                    size: 15764 bytes
+(epstopdf)             Command: <epstopdf --outfile=CentCagGrafo5D-eps-converte
+d-to.pdf CentCagGrafo5D.eps>
+(epstopdf)             \includegraphics on input line 280.
+Package epstopdf Info: Output file is already uptodate.
+
+<CentCagGrafo5D-eps-converted-to.pdf, id=448, 611.28375pt x 605.26125pt>
+File: CentCagGrafo5D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use CentCagGrafo5D-eps-converted-to.pdf>
+Package pdftex.def Info: CentCagGrafo5D-eps-converted-to.pdf used on input line
+ 280.
+(pdftex.def)             Requested size: 213.95251pt x 211.8446pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 276--281
 [][] []
  []
@@ -891,20 +1553,103 @@ Underfull \hbox (badness 10000) in paragraph at lines 276--281
  []
 
 
-LaTeX Warning: Float too large for page by 10.50343pt on input line 284.
+LaTeX Warning: Float too large for page by 10.50188pt on input line 284.
 
-File: ExcentricidadGrafo1D.eps Graphic file (type eps)
-<ExcentricidadGrafo1D.eps>
-File: ExcentricidadGrafo2D.eps Graphic file (type eps)
- <ExcentricidadGrafo2D.eps>
-File: ExcentricidadGrafo3D.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <ExcentricidadGrafo1D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:09
+(epstopdf)                    size: 28416 bytes
+(epstopdf)             Output file: <ExcentricidadGrafo1D-eps-converted-to.pdf>
 
-<ExcentricidadGrafo3D.eps>
-File: ExcentricidadGrafo4D.eps Graphic file (type eps)
- <ExcentricidadGrafo4D.eps>
-File: ExcentricidadGrafo5D.eps Graphic file (type eps)
+(epstopdf)                    date: 2019-05-26 19:27:25
+(epstopdf)                    size: 16030 bytes
+(epstopdf)             Command: <epstopdf --outfile=ExcentricidadGrafo1D-eps-co
+nverted-to.pdf ExcentricidadGrafo1D.eps>
+(epstopdf)             \includegraphics on input line 288.
+Package epstopdf Info: Output file is already uptodate.
+<ExcentricidadGrafo1D-eps-converted-to.pdf, id=449, 624.3325pt x 605.26125pt>
+File: ExcentricidadGrafo1D-eps-converted-to.pdf Graphic file (type pdf)
 
-<ExcentricidadGrafo5D.eps>
+<use ExcentricidadGrafo1D-eps-converted-to.pdf>
+Package pdftex.def Info: ExcentricidadGrafo1D-eps-converted-to.pdf used on inpu
+t line 288.
+(pdftex.def)             Requested size: 218.51964pt x 211.8446pt.
+Package epstopdf Info: Source file: <ExcentricidadGrafo2D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:17
+(epstopdf)                    size: 28499 bytes
+(epstopdf)             Output file: <ExcentricidadGrafo2D-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-05-26 19:27:26
+(epstopdf)                    size: 15052 bytes
+(epstopdf)             Command: <epstopdf --outfile=ExcentricidadGrafo2D-eps-co
+nverted-to.pdf ExcentricidadGrafo2D.eps>
+(epstopdf)             \includegraphics on input line 289.
+Package epstopdf Info: Output file is already uptodate.
+
+<ExcentricidadGrafo2D-eps-converted-to.pdf, id=450, 618.31pt x 605.26125pt>
+File: ExcentricidadGrafo2D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ExcentricidadGrafo2D-eps-converted-to.pdf>
+Package pdftex.def Info: ExcentricidadGrafo2D-eps-converted-to.pdf used on inpu
+t line 289.
+(pdftex.def)             Requested size: 216.41174pt x 211.8446pt.
+Package epstopdf Info: Source file: <ExcentricidadGrafo3D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:25
+(epstopdf)                    size: 26807 bytes
+(epstopdf)             Output file: <ExcentricidadGrafo3D-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-05-26 19:27:27
+(epstopdf)                    size: 15153 bytes
+(epstopdf)             Command: <epstopdf --outfile=ExcentricidadGrafo3D-eps-co
+nverted-to.pdf ExcentricidadGrafo3D.eps>
+(epstopdf)             \includegraphics on input line 290.
+Package epstopdf Info: Output file is already uptodate.
+
+<ExcentricidadGrafo3D-eps-converted-to.pdf, id=451, 614.295pt x 605.26125pt>
+File: ExcentricidadGrafo3D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ExcentricidadGrafo3D-eps-converted-to.pdf>
+Package pdftex.def Info: ExcentricidadGrafo3D-eps-converted-to.pdf used on inpu
+t line 290.
+(pdftex.def)             Requested size: 215.00647pt x 211.8446pt.
+Package epstopdf Info: Source file: <ExcentricidadGrafo4D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:34
+(epstopdf)                    size: 28403 bytes
+(epstopdf)             Output file: <ExcentricidadGrafo4D-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-05-26 19:27:28
+(epstopdf)                    size: 16041 bytes
+(epstopdf)             Command: <epstopdf --outfile=ExcentricidadGrafo4D-eps-co
+nverted-to.pdf ExcentricidadGrafo4D.eps>
+(epstopdf)             \includegraphics on input line 291.
+Package epstopdf Info: Output file is already uptodate.
+
+<ExcentricidadGrafo4D-eps-converted-to.pdf, id=452, 624.3325pt x 605.26125pt>
+File: ExcentricidadGrafo4D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ExcentricidadGrafo4D-eps-converted-to.pdf>
+Package pdftex.def Info: ExcentricidadGrafo4D-eps-converted-to.pdf used on inpu
+t line 291.
+(pdftex.def)             Requested size: 218.51964pt x 211.8446pt.
+Package epstopdf Info: Source file: <ExcentricidadGrafo5D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:43
+(epstopdf)                    size: 28302 bytes
+(epstopdf)             Output file: <ExcentricidadGrafo5D-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-05-26 19:27:29
+(epstopdf)                    size: 15263 bytes
+(epstopdf)             Command: <epstopdf --outfile=ExcentricidadGrafo5D-eps-co
+nverted-to.pdf ExcentricidadGrafo5D.eps>
+(epstopdf)             \includegraphics on input line 292.
+Package epstopdf Info: Output file is already uptodate.
+
+<ExcentricidadGrafo5D-eps-converted-to.pdf, id=453, 613.29124pt x 605.26125pt>
+File: ExcentricidadGrafo5D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ExcentricidadGrafo5D-eps-converted-to.pdf>
+Package pdftex.def Info: ExcentricidadGrafo5D-eps-converted-to.pdf used on inpu
+t line 292.
+(pdftex.def)             Requested size: 214.65514pt x 211.8446pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 288--293
 [][] []
  []
@@ -915,19 +1660,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 288--293
  []
 
 
-LaTeX Warning: Float too large for page by 10.50343pt on input line 296.
+LaTeX Warning: Float too large for page by 10.50188pt on input line 296.
 
-File: PageRagGrafo1D.eps Graphic file (type eps)
-<PageRagGrafo1D.eps>
-File: PageRagGrafo2D.eps Graphic file (type eps)
- <PageRagGrafo2D.eps>
-File: PageRagGrafo3D.eps Graphic file (type eps)
- <PageRagGrafo3D.eps>
-File: PageRagGrafo4D.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <PageRagGrafo1D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:10
+(epstopdf)                    size: 28887 bytes
+(epstopdf)             Output file: <PageRagGrafo1D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:30
+(epstopdf)                    size: 17511 bytes
+(epstopdf)             Command: <epstopdf --outfile=PageRagGrafo1D-eps-converte
+d-to.pdf PageRagGrafo1D.eps>
+(epstopdf)             \includegraphics on input line 300.
+Package epstopdf Info: Output file is already uptodate.
+<PageRagGrafo1D-eps-converted-to.pdf, id=454, 611.28375pt x 605.26125pt>
+File: PageRagGrafo1D-eps-converted-to.pdf Graphic file (type pdf)
 
-<PageRagGrafo4D.eps>
-File: PageRagGrafo5D.eps Graphic file (type eps)
- <PageRagGrafo5D.eps>
+<use PageRagGrafo1D-eps-converted-to.pdf>
+Package pdftex.def Info: PageRagGrafo1D-eps-converted-to.pdf used on input line
+ 300.
+(pdftex.def)             Requested size: 213.95251pt x 211.8446pt.
+Package epstopdf Info: Source file: <PageRagGrafo2D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:19
+(epstopdf)                    size: 27482 bytes
+(epstopdf)             Output file: <PageRagGrafo2D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:32
+(epstopdf)                    size: 16800 bytes
+(epstopdf)             Command: <epstopdf --outfile=PageRagGrafo2D-eps-converte
+d-to.pdf PageRagGrafo2D.eps>
+(epstopdf)             \includegraphics on input line 301.
+Package epstopdf Info: Output file is already uptodate.
+
+<PageRagGrafo2D-eps-converted-to.pdf, id=455, 611.28375pt x 605.26125pt>
+File: PageRagGrafo2D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use PageRagGrafo2D-eps-converted-to.pdf>
+Package pdftex.def Info: PageRagGrafo2D-eps-converted-to.pdf used on input line
+ 301.
+(pdftex.def)             Requested size: 213.95251pt x 211.8446pt.
+Package epstopdf Info: Source file: <PageRagGrafo3D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:27
+(epstopdf)                    size: 29359 bytes
+(epstopdf)             Output file: <PageRagGrafo3D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:33
+(epstopdf)                    size: 17105 bytes
+(epstopdf)             Command: <epstopdf --outfile=PageRagGrafo3D-eps-converte
+d-to.pdf PageRagGrafo3D.eps>
+(epstopdf)             \includegraphics on input line 302.
+Package epstopdf Info: Output file is already uptodate.
+
+<PageRagGrafo3D-eps-converted-to.pdf, id=456, 616.3025pt x 605.26125pt>
+File: PageRagGrafo3D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use PageRagGrafo3D-eps-converted-to.pdf>
+Package pdftex.def Info: PageRagGrafo3D-eps-converted-to.pdf used on input line
+ 302.
+(pdftex.def)             Requested size: 215.7091pt x 211.8446pt.
+Package epstopdf Info: Source file: <PageRagGrafo4D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:35
+(epstopdf)                    size: 26674 bytes
+(epstopdf)             Output file: <PageRagGrafo4D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:34
+(epstopdf)                    size: 16247 bytes
+(epstopdf)             Command: <epstopdf --outfile=PageRagGrafo4D-eps-converte
+d-to.pdf PageRagGrafo4D.eps>
+(epstopdf)             \includegraphics on input line 303.
+Package epstopdf Info: Output file is already uptodate.
+
+<PageRagGrafo4D-eps-converted-to.pdf, id=457, 611.28375pt x 605.26125pt>
+File: PageRagGrafo4D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use PageRagGrafo4D-eps-converted-to.pdf>
+Package pdftex.def Info: PageRagGrafo4D-eps-converted-to.pdf used on input line
+ 303.
+(pdftex.def)             Requested size: 213.95251pt x 211.8446pt.
+Package epstopdf Info: Source file: <PageRagGrafo5D.eps>
+(epstopdf)                    date: 2019-04-30 04:00:44
+(epstopdf)                    size: 27289 bytes
+(epstopdf)             Output file: <PageRagGrafo5D-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:35
+(epstopdf)                    size: 16283 bytes
+(epstopdf)             Command: <epstopdf --outfile=PageRagGrafo5D-eps-converte
+d-to.pdf PageRagGrafo5D.eps>
+(epstopdf)             \includegraphics on input line 304.
+Package epstopdf Info: Output file is already uptodate.
+
+<PageRagGrafo5D-eps-converted-to.pdf, id=458, 611.28375pt x 605.26125pt>
+File: PageRagGrafo5D-eps-converted-to.pdf Graphic file (type pdf)
+
+<use PageRagGrafo5D-eps-converted-to.pdf>
+Package pdftex.def Info: PageRagGrafo5D-eps-converted-to.pdf used on input line
+ 304.
+(pdftex.def)             Requested size: 213.95251pt x 211.8446pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 300--305
 [][] []
  []
@@ -938,324 +1762,341 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--305
  []
 
 
-LaTeX Warning: Float too large for page by 10.50343pt on input line 308.
-
-(Analisis_datos1.py) [13] [14] [15] [16] [17] [18] [19]
-
-LaTeX Warning: Citation `ade' on page 20 undefined on input line 321.
-
-
-LaTeX Warning: Reference `tab:tab3' on page 20 undefined on input line 342.
-
-
-LaTeX Warning: Reference `fig13' on page 20 undefined on input line 342.
-
-
-LaTeX Warning: Reference `fig13' on page 20 undefined on input line 342.
-
-File: boxplot_Grado.eps Graphic file (type eps)
-<boxplot_Grado.eps>
-
-LaTeX Warning: Reference `tab:tab3' on page 20 undefined on input line 352.
-
-
-LaTeX Warning: Reference `fig4' on page 20 undefined on input line 352.
-
-
-LaTeX Warning: Reference `fig4' on page 20 undefined on input line 352.
-
-
-LaTeX Warning: Reference `tab:t4' on page 20 undefined on input line 352.
-
-
-LaTeX Warning: Reference `tab:t4' on page 20 undefined on input line 352.
-
-[20]
-
-LaTeX Warning: Reference `tab:t5' on page 21 undefined on input line 387.
-
-
-LaTeX Warning: Reference `fig14' on page 21 undefined on input line 387.
-
-
-LaTeX Warning: Reference `fig14' on page 21 undefined on input line 387.
-
-File: boxplot_CentCer.eps Graphic file (type eps)
-<boxplot_CentCer.eps>
-
-LaTeX Warning: Reference `tab:t5' on page 21 undefined on input line 397.
-
-
-LaTeX Warning: Reference `fig14' on page 21 undefined on input line 397.
-
-
-LaTeX Warning: Reference `fig14' on page 21 undefined on input line 397.
-
-
-LaTeX Warning: Reference `tab:t6' on page 21 undefined on input line 397.
-
-
-LaTeX Warning: Reference `tab:t6' on page 21 undefined on input line 397.
-
-[21]
-
-LaTeX Warning: Reference `tab:t7' on page 22 undefined on input line 435.
-
-
-LaTeX Warning: Reference `fig15' on page 22 undefined on input line 435.
-
-
-LaTeX Warning: Reference `fig15' on page 22 undefined on input line 435.
-
-File: boxplot_CoefAg.eps Graphic file (type eps)
-<boxplot_CoefAg.eps>
-
-LaTeX Warning: Reference `tab:t7' on page 22 undefined on input line 445.
-
-
-LaTeX Warning: Reference `fig15' on page 22 undefined on input line 445.
-
-
-LaTeX Warning: Reference `fig15' on page 22 undefined on input line 445.
-
-
-LaTeX Warning: Reference `tab:t8' on page 22 undefined on input line 445.
-
-
-LaTeX Warning: Reference `tab:t8' on page 22 undefined on input line 445.
-
-[22]
-
-LaTeX Warning: Reference `tab:t9' on page 23 undefined on input line 482.
-
-
-LaTeX Warning: Reference `fig16' on page 23 undefined on input line 482.
-
-
-LaTeX Warning: Reference `fig16' on page 23 undefined on input line 482.
-
-File: boxplot_CentCag.eps Graphic file (type eps)
-<boxplot_CentCag.eps> [23]
-
-LaTeX Warning: Reference `tab:t10' on page 24 undefined on input line 510.
-
-
-LaTeX Warning: Reference `fig17' on page 24 undefined on input line 510.
-
-
-LaTeX Warning: Reference `fig17' on page 24 undefined on input line 510.
-
-File: boxplot_Excentricidad.eps Graphic file (type eps)
-<boxplot_Excentricidad.eps>
-
-LaTeX Warning: Reference `tab:t10' on page 24 undefined on input line 520.
-
-
-LaTeX Warning: Reference `fig17' on page 24 undefined on input line 520.
-
-
-LaTeX Warning: Reference `fig17' on page 24 undefined on input line 520.
-
-
-LaTeX Warning: Reference `tab:t11' on page 24 undefined on input line 520.
-
-
-LaTeX Warning: Reference `tab:t11' on page 24 undefined on input line 520.
-
-
-LaTeX Warning: Reference `tab:t12' on page 24 undefined on input line 557.
-
-
-LaTeX Warning: Reference `fig18' on page 24 undefined on input line 557.
-
-
-LaTeX Warning: Reference `fig18' on page 24 undefined on input line 557.
-
-File: boxplot_PageRag.eps Graphic file (type eps)
-<boxplot_PageRag.eps> [24]
-
-LaTeX Warning: Reference `tab:t12' on page 25 undefined on input line 568.
-
-
-LaTeX Warning: Reference `fig17' on page 25 undefined on input line 568.
-
-
-LaTeX Warning: Reference `fig17' on page 25 undefined on input line 568.
-
-
-LaTeX Warning: Reference `tab:t19' on page 25 undefined on input line 568.
-
-
-LaTeX Warning: Reference `tab:t19' on page 25 undefined on input line 568.
-
-[25]
-
-LaTeX Warning: Reference `tab:t20' on page 26 undefined on input line 589.
-
-
-LaTeX Warning: Reference `tab:t20' on page 26 undefined on input line 589.
-
+LaTeX Warning: Float too large for page by 10.50188pt on input line 308.
+
+(Analisis_datos1.py) [13] [14 <./GradoGrafo1D-eps-converted-to.pdf> <./GradoGra
+fo2D-eps-converted-to.pdf> <./GradoGrafo3D-eps-converted-to.pdf> <./GradoGrafo4
+D-eps-converted-to.pdf> <./GradoGrafo5D-eps-converted-to.pdf>] [15 <./CoefAgGra
+fo1D-eps-converted-to.pdf> <./CoefAgGrafo2D-eps-converted-to.pdf> <./CoefAgGraf
+o3D-eps-converted-to.pdf> <./CoefAgGrafo4D-eps-converted-to.pdf> <./CoefAgGrafo
+5D-eps-converted-to.pdf>] [16 <./CentCerGrafo1D-eps-converted-to.pdf> <./CentCe
+rGrafo2D-eps-converted-to.pdf> <./CentCerGrafo3D-eps-converted-to.pdf> <./CentC
+erGrafo4D-eps-converted-to.pdf> <./CentCerGrafo5D-eps-converted-to.pdf>]
+[17 <./CentCagGrafo1D-eps-converted-to.pdf> <./CentCagGrafo2D-eps-converted-to.
+pdf> <./CentCagGrafo3D-eps-converted-to.pdf> <./CentCagGrafo4D-eps-converted-to
+.pdf> <./CentCagGrafo5D-eps-converted-to.pdf>] [18 <./ExcentricidadGrafo1D-eps-
+converted-to.pdf> <./ExcentricidadGrafo2D-eps-converted-to.pdf> <./Excentricida
+dGrafo3D-eps-converted-to.pdf> <./ExcentricidadGrafo4D-eps-converted-to.pdf> <.
+/ExcentricidadGrafo5D-eps-converted-to.pdf>] [19 <./PageRagGrafo1D-eps-converte
+d-to.pdf> <./PageRagGrafo2D-eps-converted-to.pdf> <./PageRagGrafo3D-eps-convert
+ed-to.pdf> <./PageRagGrafo4D-eps-converted-to.pdf> <./PageRagGrafo5D-eps-conver
+ted-to.pdf>]
+Package epstopdf Info: Source file: <boxplot_Grado.eps>
+(epstopdf)                    date: 2019-04-29 23:36:57
+(epstopdf)                    size: 22542 bytes
+(epstopdf)             Output file: <boxplot_Grado-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:35
+(epstopdf)                    size: 16156 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplot_Grado-eps-converted
+-to.pdf boxplot_Grado.eps>
+(epstopdf)             \includegraphics on input line 346.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplot_Grado-eps-converted-to.pdf, id=1382, 522.95375pt x 388.45125pt>
+File: boxplot_Grado-eps-converted-to.pdf Graphic file (type pdf)
+
+<use boxplot_Grado-eps-converted-to.pdf>
+Package pdftex.def Info: boxplot_Grado-eps-converted-to.pdf used on input line 
+346.
+(pdftex.def)             Requested size: 313.77466pt x 233.07254pt.
+ [20 <./boxplot_Grado-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <boxplot_CentCer.eps>
+(epstopdf)                    date: 2019-04-29 23:37:03
+(epstopdf)                    size: 22665 bytes
+(epstopdf)             Output file: <boxplot_CentCer-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:36
+(epstopdf)                    size: 15880 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplot_CentCer-eps-convert
+ed-to.pdf boxplot_CentCer.eps>
+(epstopdf)             \includegraphics on input line 391.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplot_CentCer-eps-converted-to.pdf, id=1413, 432.61626pt x 322.20375pt>
+File: boxplot_CentCer-eps-converted-to.pdf Graphic file (type pdf)
+
+<use boxplot_CentCer-eps-converted-to.pdf>
+Package pdftex.def Info: boxplot_CentCer-eps-converted-to.pdf used on input lin
+e 391.
+(pdftex.def)             Requested size: 259.57176pt x 193.32373pt.
+ [21 <./boxplot_CentCer-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <boxplot_CoefAg.eps>
+(epstopdf)                    date: 2019-04-29 23:37:00
+(epstopdf)                    size: 22828 bytes
+(epstopdf)             Output file: <boxplot_CoefAg-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:37
+(epstopdf)                    size: 16349 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplot_CoefAg-eps-converte
+d-to.pdf boxplot_CoefAg.eps>
+(epstopdf)             \includegraphics on input line 439.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplot_CoefAg-eps-converted-to.pdf, id=1443, 434.62375pt x 322.20375pt>
+File: boxplot_CoefAg-eps-converted-to.pdf Graphic file (type pdf)
+
+<use boxplot_CoefAg-eps-converted-to.pdf>
+Package pdftex.def Info: boxplot_CoefAg-eps-converted-to.pdf used on input line
+ 439.
+(pdftex.def)             Requested size: 260.77626pt x 193.32373pt.
+ [22 <./boxplot_CoefAg-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <boxplot_CentCag.eps>
+(epstopdf)                    date: 2019-04-29 23:37:06
+(epstopdf)                    size: 22053 bytes
+(epstopdf)             Output file: <boxplot_CentCag-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:39
+(epstopdf)                    size: 15753 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplot_CentCag-eps-convert
+ed-to.pdf boxplot_CentCag.eps>
+(epstopdf)             \includegraphics on input line 486.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplot_CentCag-eps-converted-to.pdf, id=1474, 434.62375pt x 322.20375pt>
+File: boxplot_CentCag-eps-converted-to.pdf Graphic file (type pdf)
+
+<use boxplot_CentCag-eps-converted-to.pdf>
+Package pdftex.def Info: boxplot_CentCag-eps-converted-to.pdf used on input lin
+e 486.
+(pdftex.def)             Requested size: 260.77626pt x 193.32373pt.
+ [23 <./boxplot_CentCag-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <boxplot_Excentricidad.eps>
+(epstopdf)                    date: 2019-04-29 23:37:11
+(epstopdf)                    size: 23405 bytes
+(epstopdf)             Output file: <boxplot_Excentricidad-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-05-26 19:27:40
+(epstopdf)                    size: 16512 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplot_Excentricidad-eps-c
+onverted-to.pdf boxplot_Excentricidad.eps>
+(epstopdf)             \includegraphics on input line 514.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplot_Excentricidad-eps-converted-to.pdf, id=1503, 432.61626pt x 322.20375pt
+>
+File: boxplot_Excentricidad-eps-converted-to.pdf Graphic file (type pdf)
+ <use boxplot_Excentricidad-eps-converted-to.pdf>
+Package pdftex.def Info: boxplot_Excentricidad-eps-converted-to.pdf used on inp
+ut line 514.
+(pdftex.def)             Requested size: 259.57176pt x 193.32373pt.
+Package epstopdf Info: Source file: <boxplot_PageRag.eps>
+(epstopdf)                    date: 2019-04-29 23:37:14
+(epstopdf)                    size: 22819 bytes
+(epstopdf)             Output file: <boxplot_PageRag-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:41
+(epstopdf)                    size: 16176 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplot_PageRag-eps-convert
+ed-to.pdf boxplot_PageRag.eps>
+(epstopdf)             \includegraphics on input line 561.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplot_PageRag-eps-converted-to.pdf, id=1504, 434.62375pt x 322.20375pt>
+File: boxplot_PageRag-eps-converted-to.pdf Graphic file (type pdf)
+
+<use boxplot_PageRag-eps-converted-to.pdf>
+Package pdftex.def Info: boxplot_PageRag-eps-converted-to.pdf used on input lin
+e 561.
+(pdftex.def)             Requested size: 260.77626pt x 193.32373pt.
+ [24 <./boxplot_Excentricidad-eps-converted-to.pdf>] [25 <./boxplot_PageRag-eps
+-converted-to.pdf>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/it' in size <10> not available
 (Font)              Font shape `OT1/cmtt/m/it' tried instead on input line 596.
 
-
-LaTeX Warning: Reference `tab:t7' on page 26 undefined on input line 623.
-
-
-LaTeX Warning: Reference `tab:t21' on page 26 undefined on input line 627.
-
-
-LaTeX Warning: Reference `tab:t22' on page 26 undefined on input line 627.
-
-
-LaTeX Warning: Reference `tab:t23' on page 26 undefined on input line 627.
-
-
-LaTeX Warning: Reference `tab:t24' on page 26 undefined on input line 627.
-
-
-LaTeX Warning: Reference `tab:t25' on page 26 undefined on input line 627.
-
-
-LaTeX Warning: Reference `tab:t25' on page 26 undefined on input line 627.
-
-
-LaTeX Warning: Reference `tab:t21' on page 26 undefined on input line 627.
-
-
-LaTeX Warning: Reference `tab:t22' on page 26 undefined on input line 627.
-
-
-LaTeX Warning: Reference `tab:t23' on page 26 undefined on input line 627.
-
-
-LaTeX Warning: Reference `tab:t24' on page 26 undefined on input line 627.
-
-
-LaTeX Warning: Reference `tab:t25' on page 26 undefined on input line 627.
-
-
-LaTeX Warning: Reference `tab:t26' on page 26 undefined on input line 627.
-
-
-LaTeX Warning: Reference `fig19' on page 26 undefined on input line 721.
-
-
-LaTeX Warning: Reference `fig20' on page 26 undefined on input line 721.
-
-
-LaTeX Warning: Reference `fig21' on page 26 undefined on input line 721.
-
-
-LaTeX Warning: Reference `fig22' on page 26 undefined on input line 721.
-
-
-LaTeX Warning: Reference `fig23' on page 26 undefined on input line 721.
-
-
-LaTeX Warning: Reference `fig23' on page 26 undefined on input line 721.
-
-
-LaTeX Warning: Reference `fig19' on page 26 undefined on input line 721.
-
-
-LaTeX Warning: Reference `fig20' on page 26 undefined on input line 721.
-
-
-LaTeX Warning: Reference `fig21' on page 26 undefined on input line 721.
-
-
-LaTeX Warning: Reference `fig22' on page 26 undefined on input line 721.
-
-
-LaTeX Warning: Reference `fig23' on page 26 undefined on input line 721.
-
-
-LaTeX Warning: Reference `fig24' on page 26 undefined on input line 721.
-
-File: boxplot_FlujoMaxGrado.eps Graphic file (type eps)
-<boxplot_FlujoMaxGrado.eps> [26] [27]
-File: boxplot_FlujoMaxCoefAg.eps Graphic file (type eps)
- <boxplot_FlujoMaxCoefAg.eps>
-File: boxplot_FlujoMaxCentCer.eps Graphic file (type eps)
-
-<boxplot_FlujoMaxCentCer.eps>
-File: boxplot_FlujoMaxCentCag.eps Graphic file (type eps)
- <boxplot_FlujoMaxCentCag.eps>
-File: boxplot_FlujoMaxExcentricidad.eps Graphic file (type eps)
-
-<boxplot_FlujoMaxExcentricidad.eps>
-File: boxplot_FlujoMaxPageRag.eps Graphic file (type eps)
- <boxplot_FlujoMaxPageRag.eps> [28] [29]
-[30]
-
-LaTeX Warning: Reference `tab:t27' on page 31 undefined on input line 861.
-
-
-LaTeX Warning: Reference `tab:t28' on page 31 undefined on input line 861.
-
-
-LaTeX Warning: Reference `tab:t29' on page 31 undefined on input line 861.
-
-
-LaTeX Warning: Reference `tab:t30' on page 31 undefined on input line 861.
-
-
-LaTeX Warning: Reference `tab:t31' on page 31 undefined on input line 861.
-
-
-LaTeX Warning: Reference `tab:t32' on page 31 undefined on input line 861.
-
-
-LaTeX Warning: Reference `tab:t27' on page 31 undefined on input line 861.
-
-
-LaTeX Warning: Reference `tab:t28' on page 31 undefined on input line 861.
-
-
-LaTeX Warning: Reference `tab:t29' on page 31 undefined on input line 861.
-
-
-LaTeX Warning: Reference `tab:t30' on page 31 undefined on input line 861.
-
-
-LaTeX Warning: Reference `tab:t31' on page 31 undefined on input line 861.
-
-
-LaTeX Warning: Reference `tab:t32' on page 31 undefined on input line 861.
-
-
-LaTeX Warning: Reference `tab:t33' on page 31 undefined on input line 864.
-
-
-LaTeX Warning: Reference `tab:t33' on page 31 undefined on input line 864.
-
-
-LaTeX Warning: Reference `tab:t33' on page 31 undefined on input line 901.
-
-
-LaTeX Warning: Reference `tab:t33' on page 31 undefined on input line 901.
-
-[31] [32]
-No file Tarea_5.bbl.
-(Tarea_5.aux
+Package epstopdf Info: Source file: <boxplot_FlujoMaxGrado.eps>
+(epstopdf)                    date: 2019-04-30 01:38:35
+(epstopdf)                    size: 23485 bytes
+(epstopdf)             Output file: <boxplot_FlujoMaxGrado-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-05-26 19:27:42
+(epstopdf)                    size: 16993 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplot_FlujoMaxGrado-eps-c
+onverted-to.pdf boxplot_FlujoMaxGrado.eps>
+(epstopdf)             \includegraphics on input line 726.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplot_FlujoMaxGrado-eps-converted-to.pdf, id=1566, 522.95375pt x 388.45125pt
+>
+File: boxplot_FlujoMaxGrado-eps-converted-to.pdf Graphic file (type pdf)
+ <use boxplot_FlujoMaxGrado-eps-converted-to.pdf>
+Package pdftex.def Info: boxplot_FlujoMaxGrado-eps-converted-to.pdf used on inp
+ut line 726.
+(pdftex.def)             Requested size: 313.77466pt x 233.07254pt.
+ [26] [27 <./boxplot_FlujoMaxGrado-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <boxplot_FlujoMaxCoefAg.eps>
+(epstopdf)                    date: 2019-04-30 01:38:43
+(epstopdf)                    size: 24884 bytes
+(epstopdf)             Output file: <boxplot_FlujoMaxCoefAg-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-05-26 19:27:43
+(epstopdf)                    size: 18084 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplot_FlujoMaxCoefAg-eps-
+converted-to.pdf boxplot_FlujoMaxCoefAg.eps>
+(epstopdf)             \includegraphics on input line 734.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplot_FlujoMaxCoefAg-eps-converted-to.pdf, id=1603, 434.62375pt x 322.20375p
+t>
+File: boxplot_FlujoMaxCoefAg-eps-converted-to.pdf Graphic file (type pdf)
+ <use boxplot_FlujoMaxCoefAg-eps-converted-to.pdf>
+Package pdftex.def Info: boxplot_FlujoMaxCoefAg-eps-converted-to.pdf used on in
+put line 734.
+(pdftex.def)             Requested size: 260.77626pt x 193.32373pt.
+Package epstopdf Info: Source file: <boxplot_FlujoMaxCentCer.eps>
+(epstopdf)                    date: 2019-04-30 01:38:47
+(epstopdf)                    size: 24675 bytes
+(epstopdf)             Output file: <boxplot_FlujoMaxCentCer-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-05-26 19:27:44
+(epstopdf)                    size: 17491 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplot_FlujoMaxCentCer-eps
+-converted-to.pdf boxplot_FlujoMaxCentCer.eps>
+(epstopdf)             \includegraphics on input line 742.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplot_FlujoMaxCentCer-eps-converted-to.pdf, id=1604, 432.61626pt x 322.20375
+pt>
+File: boxplot_FlujoMaxCentCer-eps-converted-to.pdf Graphic file (type pdf)
+ <use boxplot_FlujoMaxCentCer-eps-converted-to.pdf>
+Package pdftex.def Info: boxplot_FlujoMaxCentCer-eps-converted-to.pdf used on i
+nput line 742.
+(pdftex.def)             Requested size: 259.57176pt x 193.32373pt.
+Package epstopdf Info: Source file: <boxplot_FlujoMaxCentCag.eps>
+(epstopdf)                    date: 2019-04-30 01:38:50
+(epstopdf)                    size: 24730 bytes
+(epstopdf)             Output file: <boxplot_FlujoMaxCentCag-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-05-26 19:27:45
+(epstopdf)                    size: 17803 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplot_FlujoMaxCentCag-eps
+-converted-to.pdf boxplot_FlujoMaxCentCag.eps>
+(epstopdf)             \includegraphics on input line 750.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplot_FlujoMaxCentCag-eps-converted-to.pdf, id=1605, 434.62375pt x 322.20375
+pt>
+File: boxplot_FlujoMaxCentCag-eps-converted-to.pdf Graphic file (type pdf)
+ <use boxplot_FlujoMaxCentCag-eps-converted-to.pdf>
+Package pdftex.def Info: boxplot_FlujoMaxCentCag-eps-converted-to.pdf used on i
+nput line 750.
+(pdftex.def)             Requested size: 260.77626pt x 193.32373pt.
+Package epstopdf Info: Source file: <boxplot_FlujoMaxExcentricidad.eps>
+(epstopdf)                    date: 2019-04-30 01:38:52
+(epstopdf)                    size: 25525 bytes
+(epstopdf)             Output file: <boxplot_FlujoMaxExcentricidad-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2019-05-26 19:27:46
+(epstopdf)                    size: 17837 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplot_FlujoMaxExcentricid
+ad-eps-converted-to.pdf boxplot_FlujoMaxExcentricidad.eps>
+(epstopdf)             \includegraphics on input line 758.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplot_FlujoMaxExcentricidad-eps-converted-to.pdf, id=1606, 432.61626pt x 322
+.20375pt>
+File: boxplot_FlujoMaxExcentricidad-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use boxplot_FlujoMaxExcentricidad-eps-converted-to.pdf>
+Package pdftex.def Info: boxplot_FlujoMaxExcentricidad-eps-converted-to.pdf use
+d on input line 758.
+(pdftex.def)             Requested size: 259.57176pt x 193.32373pt.
+Package epstopdf Info: Source file: <boxplot_FlujoMaxPageRag.eps>
+(epstopdf)                    date: 2019-04-30 01:38:55
+(epstopdf)                    size: 23885 bytes
+(epstopdf)             Output file: <boxplot_FlujoMaxPageRag-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-05-26 19:27:46
+(epstopdf)                    size: 17621 bytes
+(epstopdf)             Command: <epstopdf --outfile=boxplot_FlujoMaxPageRag-eps
+-converted-to.pdf boxplot_FlujoMaxPageRag.eps>
+(epstopdf)             \includegraphics on input line 766.
+Package epstopdf Info: Output file is already uptodate.
+
+<boxplot_FlujoMaxPageRag-eps-converted-to.pdf, id=1607, 434.62375pt x 322.20375
+pt>
+File: boxplot_FlujoMaxPageRag-eps-converted-to.pdf Graphic file (type pdf)
+ <use boxplot_FlujoMaxPageRag-eps-converted-to.pdf>
+Package pdftex.def Info: boxplot_FlujoMaxPageRag-eps-converted-to.pdf used on i
+nput line 766.
+(pdftex.def)             Requested size: 260.77626pt x 193.32373pt.
+ [28 <./boxplot_FlujoMaxCoefAg-eps-converted-to.pdf> <./boxplot_FlujoMaxCentCer
+-eps-converted-to.pdf>]
+[29 <./boxplot_FlujoMaxCentCag-eps-converted-to.pdf> <./boxplot_FlujoMaxExcentr
+icidad-eps-converted-to.pdf> <./boxplot_FlujoMaxPageRag-eps-converted-to.pdf>]
+[30] [31] [32] (Tarea_5.bbl
+Underfull \hbox (badness 8056) in paragraph at lines 16--20
+[]\OT1/cmr/m/n/10 Desarrolladores Net-workX.  $\OT1/cmtt/m/n/10 https : / / net
+workx . github . io / documentation / stable / reference / generated /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
+\OT1/cmtt/m/n/10 networkx . generators . random _ graphs . erdos _ renyi _ grap
+h . html # networkx . generators . random _ graphs .
+ []
+
+
+Underfull \hbox (badness 8056) in paragraph at lines 22--26
+[]\OT1/cmr/m/n/10 Desarrolladores Net-workX.  $\OT1/cmtt/m/n/10 https : / / net
+workx . github . io / documentation / stable / reference / generated /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
+\OT1/cmtt/m/n/10 networkx . generators . random _ graphs . fast _ gnp _ random 
+_ graph . html # networkx . generators . random _ graphs .
+ []
+
+
+Underfull \hbox (badness 8056) in paragraph at lines 28--32
+[]\OT1/cmr/m/n/10 Desarrolladores Net-workX.  $\OT1/cmtt/m/n/10 https : / / net
+workx . github . io / documentation / stable / reference / generated /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+\OT1/cmtt/m/n/10 networkx . generators . random _ graphs . binomial _ graph . h
+tml # networkx . generators . random _ graphs .
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 34--38
+[]\OT1/cmr/m/n/10 Desarrolladores Net-workX.  $\OT1/cmtt/m/n/10 https : / / net
+workx . github . io / documentation / stable / reference / algorithms /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
+[]\OT1/cmr/m/n/10 Desarrolladores Net-workX.  $\OT1/cmtt/m/n/10 https : / / net
+workx . github . io / documentation / networkx-[]1 . 10 / reference /
+ []
+
+) [33] (Tarea_5.aux
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
-)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) ) 
 Here is how much of TeX's memory you used:
- 4951 strings out of 493324
- 63550 string characters out of 3141250
- 711253 words of memory out of 3000000
- 8368 multiletter control sequences out of 15000+200000
+ 5926 strings out of 493323
+ 84371 string characters out of 3141224
+ 738307 words of memory out of 3000000
+ 9303 multiletter control sequences out of 15000+200000
  9288 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,10n,43p,666b,1865s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,10n,43p,660b,1865s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
+m Files/basic/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/basic
+/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/basic/fonts/type
+1/public/amsfonts/cm/cmitt10.pfb><C:/Program Files/basic/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
+ram Files/basic/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/basi
+c/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/basic/fonts/type1/
+public/amsfonts/cm/cmr5.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts
+/cm/cmr7.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
+:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
+es/basic/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/basic/fonts
+/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/basic/fonts/type1/public
+/amsfonts/cm/cmti8.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/c
+mtt10.pfb>
+Output written on Tarea_5.pdf (33 pages, 1357287 bytes).
+PDF statistics:
+ 1832 PDF objects out of 2073 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 336 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on Tarea_5.dvi (32 pages, 196452 bytes).

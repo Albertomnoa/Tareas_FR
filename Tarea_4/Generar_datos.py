@@ -16,6 +16,7 @@ def Algoritmo_FM(algoritmoF,Graf, funte, sumidero,):
         t_inicio = dt.datetime.now()
         obj = algoritmos_flujo[algoritmoF](Graf, funte, sumidero, capacity="capacity")
         t_fin = dt.datetime.now()
+
         tiempo_consumido_segundos = (t_fin - t_inicio).total_seconds()
         tiempos_ejecucion.append(tiempo_consumido_segundos)
     media = stats.mean(tiempos_ejecucion)

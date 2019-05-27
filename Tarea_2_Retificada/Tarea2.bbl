@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+
+\bibitem{tesis}
+Andrés Aiello and Rodrigo~Ignacio Silveira.
+\newblock Trazado de grafos mediante métodos dirigidos por fuerzas: revisión
+  del estado del arte y presentación de algoritmos para grafos donde los
+  vértices son regiones geográficas.
+\newblock Technical report, Universidad de Buenos Aires,
+  https://dccg.upc.edu/people/rodrigo/pubs/MScThesis.pdf, Diciembre 2004.
+
+\bibitem{gf1}
+Amalia~Duch Brown.
+\newblock Grafos.
+\newblock \url{https://www.cs.upc.edu/~duch/home/duch/grafos.pdf}, Octubre
+  2007.
+
+\bibitem{article1}
+Chakraborty, Anwesha, Trina Dutta, Mondal, Sushmita, Nath, and Asoke.
+\newblock Application of graph theory in social media.
+\newblock {\em International Journal of Computer Sciences and Engineering},
+  6:722--729, 10 2018.
+
+\bibitem{networkx}
+NetworkX~Developers Copyright 2004-2019.
+\newblock Overview of networkx.
+\newblock https://networkx.github.io/documentation/latest/index.html, Febrero
+  2019.
+
+\bibitem{gf3}
+R.~A. Hanneman and M.~Riddle.
+\newblock Introduction to social network methods.
+\newblock \url{http://faculty.ucr.edu/~hanneman/. Consultado}, September 2013.
+
+\bibitem{rf1}
+Kimball Martin.
+\newblock {\em Graph Theory and Social Networks}.
+\newblock Spring, Abril 2014.
+
+\bibitem{gf2}
+Azahara Muñoz~Martínez Mauricio Beltrán~Pascuala and Ángel
+  Muñoz~Alamillos.
+\newblock Redes bayesianas aplicadas a problemas de credit scoring. una
+  aplicación práctica.
+\newblock
+  \url{https://www.sciencedirect.com/science/article/pii/S0210026613000083},
+  Octubre 2013.
+
+\end{thebibliography}

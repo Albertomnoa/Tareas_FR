@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+
+\bibitem{mc}
+Desarrolladores de~NetworkX.
+\newblock
+  \url{https://networkx.github.io/documentation/networkx-1.10/reference/generated/networkx.algorithms.clique.make_max_clique_graph.html}.
+\newblock Accessed: 18-03-2019.
+
+\bibitem{bct}
+Desarrolladores de~NetworkX.
+\newblock
+  \url{https://networkx.github.io/documentation/networkx-1.10/reference/generated/networkx.algorithms.centrality.betweenness_centrality.html#networkx.algorithms.centrality.betweenness_centrality}.
+\newblock Accessed: 18-03-2019.
+
+\bibitem{gc}
+Desarrolladores de~NetworkX.
+\newblock
+  \url{https://networkx.github.io/documentation/networkx-1.10/reference/generated/networkx.algorithms.coloring.greedy_color.html}.
+\newblock Accessed: 18-03-2019.
+
+\bibitem{mm}
+Desarrolladores de~NetworkX.
+\newblock
+  \url{https://networkx.github.io/documentation/networkx-1.10/reference/generated/networkx.algorithms.matching.maximal_matching.html}.
+\newblock Accessed: 18-03-2019.
+
+\bibitem{dt}
+Desarrolladores de~NetworkX.
+\newblock
+  \url{https://networkx.github.io/documentation/networkx-1.10/reference/generated/networkx.algorithms.traversal.depth_first_search.dfs_tree.html#networkx.algorithms.traversal.depth_first_search.dfs_tree}.
+\newblock Accessed: 18-03-2019.
+
+\end{thebibliography}

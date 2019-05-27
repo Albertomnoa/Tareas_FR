@@ -1,0 +1,52 @@
+\begin{thebibliography}{1}
+
+\bibitem{Bosek2018}
+Bart{\l}omiej Bosek, Dariusz Leniowski, Piotr Sankowski, and Anna
+  Zych-Pawlewicz.
+\newblock Shortest augmenting paths for online matchings on trees.
+\newblock {\em Theory of Computing Systems}, 62(2):337--348, Feb 2018.
+
+\bibitem{erg}
+Desarrolladores de~NetworkX.
+\newblock
+  \url{https://networkx.github.io/documentation/stable/reference/generated/networkx.generators.random_graphs.erdos_renyi_graph.html#networkx.generators.random_graphs.erdos_renyi_graph}.
+\newblock Accessed: 01-04-2019.
+
+\bibitem{rgf}
+Desarrolladores de~NetworkX.
+\newblock
+  \url{https://networkx.github.io/documentation/stable/reference/generated/networkx.generators.random_graphs.fast_gnp_random_graph.html#networkx.generators.random_graphs.fast_gnp_random_graph}.
+\newblock Accessed: 01-04-2019.
+
+\bibitem{bg}
+Desarrolladores de~NetworkX.
+\newblock
+  \url{https://networkx.github.io/documentation/stable/reference/generated/networkx.generators.random_graphs.binomial_graph.html#networkx.generators.random_graphs.binomial_graph}.
+\newblock Accessed: 01-04-2019.
+
+\bibitem{mf}
+Desarrolladores de~NetworkX.
+\newblock
+  \url{https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.flow.maximum_flow.html#networkx.algorithms.flow.maximum_flow}.
+\newblock Accessed: 01-04-2019.
+
+\bibitem{ade}
+Humberto Gutiérrez and Román de~la Vara.
+\newblock {\em Análisis y diseño de experimentos}.
+\newblock The McGraw-Hill Companies, Inc., segunda edición edition, 2008.
+\newblock 60--74.
+
+\bibitem{gc}
+Desarrolladores NetworkX.
+\newblock
+  \url{https://networkx.github.io/documentation/networkx-1.10/reference/generated/networkx.algorithms.coloring.greedy_color.html}.
+\newblock Accessed: 18-03-2019.
+
+\bibitem{Nobari}
+Sadegh Nobari, Xuesong Lu, Panagiotis Karras, and St{\'e}phane Bressan.
+\newblock Fast random graph generation.
+\newblock In {\em Proceedings of the 14th International Conference on Extending
+  Database Technology}, EDBT/ICDT '11, pages 331--342, New York, NY, USA, 2011.
+  ACM.
+
+\end{thebibliography}

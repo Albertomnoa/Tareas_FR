@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.2.24)  2 MAY 2019 11:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2019.2.24)  26 MAY 2019 19:17
 entering extended mode
 **./Tarea4.tex
 (Tarea4.tex
@@ -480,6 +480,33 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count106
 \@thisrulewidth=\dimen125
 )
+("C:\Program Files\basic\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\basic\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Program Files\basic\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\basic\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count107
+\Gm@cntv=\count108
+\c@Gm@tempcnt=\count109
+\Gm@bindingoffset=\dimen126
+\Gm@wd@mp=\dimen127
+\Gm@odd@mp=\dimen128
+\Gm@even@mp=\dimen129
+\Gm@layoutwidth=\dimen130
+\Gm@layoutheight=\dimen131
+\Gm@layouthoffset=\dimen132
+\Gm@layoutvoffset=\dimen133
+\Gm@dimlist=\toks19
+
+("C:\Program Files\basic\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\basic\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 ) (Tarea4.aux
@@ -506,20 +533,20 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
 LaTeX Info: Redefining \. on input line 53.
 LaTeX Info: Redefining \% on input line 53.
-\c@lstlisting=\count107
+\c@lstlisting=\count110
  ("C:\Program Files\basic\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen126
+\scratchcounter=\count111
+\scratchdimen=\dimen134
 \scratchbox=\box28
-\nofMPsegments=\count109
-\nofMParguments=\count110
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen127
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
-\everyMPtoPDFconversion=\toks20
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen135
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks21
 ) ("C:\Program Files\basic\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -527,9 +554,6 @@ Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 ("C:\Program Files\basic\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-("C:\Program Files\basic\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -565,45 +589,62 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=443.57848pt
+* \textheight=624.25346pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 54.
-
-
-LaTeX Warning: Citation `Nobari' on page 1 undefined on input line 58.
-
-
-LaTeX Warning: Citation `erg' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Citation `rgf' on page 1 undefined on input line 66.
-
-
-LaTeX Warning: Citation `bg' on page 1 undefined on input line 67.
-
 Package epstopdf Info: Source file: <histograf.eps>
-(epstopdf)                    date: 2019-04-01 19:30:48
-(epstopdf)                    size: 49672 bytes
+(epstopdf)                    date: 2019-05-26 18:20:28
+(epstopdf)                    size: 23878 bytes
 (epstopdf)             Output file: <histograf-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-01 23:51:49
-(epstopdf)                    size: 15210 bytes
+(epstopdf)                    date: 2019-05-26 18:21:02
+(epstopdf)                    size: 13463 bytes
 (epstopdf)             Command: <epstopdf --outfile=histograf-eps-converted-to.
 pdf histograf.eps>
-(epstopdf)             \includegraphics on input line 73.
+(epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
 <histograf-eps-converted-to.pdf, id=1, 578.16pt x 433.62pt>
 File: histograf-eps-converted-to.pdf Graphic file (type pdf)
 
 <use histograf-eps-converted-to.pdf>
-Package pdftex.def Info: histograf-eps-converted-to.pdf used on input line 73.
+Package pdftex.def Info: histograf-eps-converted-to.pdf used on input line 75.
 (pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
-
-Overfull \hbox (59.70924pt too wide) in paragraph at lines 73--74
-[][] 
- []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -616,14 +657,14 @@ Package epstopdf Info: Source file: <binomialgraph.eps>
 (epstopdf)                    size: 5133 bytes
 (epstopdf)             Command: <epstopdf --outfile=binomialgraph-eps-converted
 -to.pdf binomialgraph.eps>
-(epstopdf)             \includegraphics on input line 80.
+(epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
 <binomialgraph-eps-converted-to.pdf, id=2, 259.97125pt x 253.94875pt>
 File: binomialgraph-eps-converted-to.pdf Graphic file (type pdf)
 
 <use binomialgraph-eps-converted-to.pdf>
 Package pdftex.def Info: binomialgraph-eps-converted-to.pdf used on input line 
-80.
+82.
 (pdftex.def)             Requested size: 129.9853pt x 126.97406pt.
 Package epstopdf Info: Source file: <erdosrenyigraph.eps>
 (epstopdf)                    date: 2019-04-01 22:28:03
@@ -633,7 +674,7 @@ Package epstopdf Info: Source file: <erdosrenyigraph.eps>
 (epstopdf)                    size: 3220 bytes
 (epstopdf)             Command: <epstopdf --outfile=erdosrenyigraph-eps-convert
 ed-to.pdf erdosrenyigraph.eps>
-(epstopdf)             \includegraphics on input line 81.
+(epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
 
 <erdosrenyigraph-eps-converted-to.pdf, id=3, 259.97125pt x 253.94875pt>
@@ -641,8 +682,14 @@ File: erdosrenyigraph-eps-converted-to.pdf Graphic file (type pdf)
 
 <use erdosrenyigraph-eps-converted-to.pdf>
 Package pdftex.def Info: erdosrenyigraph-eps-converted-to.pdf used on input lin
-e 81.
+e 83.
 (pdftex.def)             Requested size: 129.9853pt x 126.97406pt.
+
+Underfull \hbox (badness 3058) in paragraph at lines 83--83
+[]\OT1/cmr/m/n/8 (b) \OT1/cmr/m/it/8 Erd}os{Renyi graph\OT1/cmr/m/n/8 , con 20
+
+ []
+
 Package epstopdf Info: Source file: <fastgnprandomgraph.eps>
 (epstopdf)                    date: 2019-04-01 22:25:55
 (epstopdf)                    size: 5157 bytes
@@ -651,20 +698,17 @@ Package epstopdf Info: Source file: <fastgnprandomgraph.eps>
 (epstopdf)                    size: 3288 bytes
 (epstopdf)             Command: <epstopdf --outfile=fastgnprandomgraph-eps-conv
 erted-to.pdf fastgnprandomgraph.eps>
-(epstopdf)             \includegraphics on input line 82.
+(epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
-
 <fastgnprandomgraph-eps-converted-to.pdf, id=4, 261.97874pt x 253.94875pt>
 File: fastgnprandomgraph-eps-converted-to.pdf Graphic file (type pdf)
 
 <use fastgnprandomgraph-eps-converted-to.pdf>
 Package pdftex.def Info: fastgnprandomgraph-eps-converted-to.pdf used on input 
-line 82.
+line 84.
 (pdftex.def)             Requested size: 130.98904pt x 126.97406pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--83
-[][] []
- []
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 84.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -673,44 +717,30 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 93.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 93.
- [2 <./histograf-eps-converted-to.pdf>]
-
-LaTeX Warning: Citation `Bosek2018' on page 3 undefined on input line 99.
-
-
-LaTeX Warning: Citation `mf' on page 3 undefined on input line 100.
-
-
-LaTeX Warning: Citation `gc' on page 3 undefined on input line 101.
-
-[3 <./binomialgraph-eps-converted-to.pdf> <./erdosrenyigraph-eps-converted-to.p
-df> <./fastgnprandomgraph-eps-converted-to.pdf>]
-("C:\Program Files\basic\tex\latex\listings\lstlang1.sty"
+(Font)              <7> on input line 95.
+ [2 <./histograf-eps-converted-to.pdf>] ("C:\Program Files\basic\tex\latex\list
+ings\lstlang1.sty"
 File: lstlang1.sty 2018/09/02 1.7 listings language file
-) (Generar_datos.py)
-[4] (Generar_datos.py
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
+)
+(Generar_datos.py [3 <./binomialgraph-eps-converted-to.pdf> <./erdosrenyigraph-
+eps-converted-to.pdf> <./fastgnprandomgraph-eps-converted-to.pdf>])
+(Generar_datos.py
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
  ("C:\Program Files\basic\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
-
-[5]) (Analisis_datos.py [6]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+ [4])
+(Analisis_datos.py
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 22.
  ("C:\Program Files\basic\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 22.
-)
-
-LaTeX Warning: Citation `ade' on page 7 undefined on input line 153.
-
-[7] [8]
+ [5])
+[6]
 Package epstopdf Info: Source file: <boxplotgeneradorgrafo.eps>
 (epstopdf)                    date: 2019-04-02 04:46:37
 (epstopdf)                    size: 25538 bytes
@@ -720,15 +750,15 @@ Package epstopdf Info: Source file: <boxplotgeneradorgrafo.eps>
 (epstopdf)                    size: 16251 bytes
 (epstopdf)             Command: <epstopdf --outfile=boxplotgeneradorgrafo-eps-c
 onverted-to.pdf boxplotgeneradorgrafo.eps>
-(epstopdf)             \includegraphics on input line 180.
+(epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<boxplotgeneradorgrafo-eps-converted-to.pdf, id=79, 524.96124pt x 322.20375pt>
+<boxplotgeneradorgrafo-eps-converted-to.pdf, id=72, 524.96124pt x 322.20375pt>
 File: boxplotgeneradorgrafo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use boxplotgeneradorgrafo-eps-converted-to.pdf>
 Package pdftex.def Info: boxplotgeneradorgrafo-eps-converted-to.pdf used on inp
-ut line 180.
+ut line 182.
 (pdftex.def)             Requested size: 314.97917pt x 193.32373pt.
 Package epstopdf Info: Source file: <boxplotalgoritmofm.eps>
 (epstopdf)                    date: 2019-04-02 04:46:49
@@ -738,17 +768,17 @@ Package epstopdf Info: Source file: <boxplotalgoritmofm.eps>
 (epstopdf)                    size: 16305 bytes
 (epstopdf)             Command: <epstopdf --outfile=boxplotalgoritmofm-eps-conv
 erted-to.pdf boxplotalgoritmofm.eps>
-(epstopdf)             \includegraphics on input line 205.
+(epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
 
-<boxplotalgoritmofm-eps-converted-to.pdf, id=80, 534.99875pt x 322.20375pt>
+<boxplotalgoritmofm-eps-converted-to.pdf, id=73, 534.99875pt x 322.20375pt>
 File: boxplotalgoritmofm-eps-converted-to.pdf Graphic file (type pdf)
 
 <use boxplotalgoritmofm-eps-converted-to.pdf>
 Package pdftex.def Info: boxplotalgoritmofm-eps-converted-to.pdf used on input 
-line 205.
+line 207.
 (pdftex.def)             Requested size: 321.00172pt x 193.32373pt.
- [9 <./boxplotgeneradorgrafo-eps-converted-to.pdf>]
+ [7 <./boxplotgeneradorgrafo-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <boxplotvertices.eps>
 (epstopdf)                    date: 2019-04-02 06:52:01
 (epstopdf)                    size: 26251 bytes
@@ -757,15 +787,15 @@ Package epstopdf Info: Source file: <boxplotvertices.eps>
 (epstopdf)                    size: 16929 bytes
 (epstopdf)             Command: <epstopdf --outfile=boxplotvertices-eps-convert
 ed-to.pdf boxplotvertices.eps>
-(epstopdf)             \includegraphics on input line 232.
+(epstopdf)             \includegraphics on input line 234.
 Package epstopdf Info: Output file is already uptodate.
 
-<boxplotvertices-eps-converted-to.pdf, id=112, 516.93124pt x 388.45125pt>
+<boxplotvertices-eps-converted-to.pdf, id=106, 516.93124pt x 388.45125pt>
 File: boxplotvertices-eps-converted-to.pdf Graphic file (type pdf)
 
 <use boxplotvertices-eps-converted-to.pdf>
 Package pdftex.def Info: boxplotvertices-eps-converted-to.pdf used on input lin
-e 232.
+e 234.
 (pdftex.def)             Requested size: 310.16113pt x 233.07254pt.
 Package epstopdf Info: Source file: <simultaneoustukeyvertices.eps>
 (epstopdf)                    date: 2019-04-02 06:52:01
@@ -776,18 +806,16 @@ Package epstopdf Info: Source file: <simultaneoustukeyvertices.eps>
 (epstopdf)                    size: 21355 bytes
 (epstopdf)             Command: <epstopdf --outfile=simultaneoustukeyvertices-e
 ps-converted-to.pdf simultaneoustukeyvertices.eps>
-(epstopdf)             \includegraphics on input line 265.
+(epstopdf)             \includegraphics on input line 267.
 Package epstopdf Info: Output file is already uptodate.
 
-<simultaneoustukeyvertices-eps-converted-to.pdf, id=113, 628.3475pt x 398.48875
+<simultaneoustukeyvertices-eps-converted-to.pdf, id=107, 628.3475pt x 398.48875
 pt>
 File: simultaneoustukeyvertices-eps-converted-to.pdf Graphic file (type pdf)
  <use simultaneoustukeyvertices-eps-converted-to.pdf>
 Package pdftex.def Info: simultaneoustukeyvertices-eps-converted-to.pdf used on
- input line 265.
+ input line 267.
 (pdftex.def)             Requested size: 377.0114pt x 227.04997pt.
- [10 <./boxplotalgoritmofm-eps-converted-to.pdf>] [11 <./boxplotvertices-eps-co
-nverted-to.pdf>]
 Package epstopdf Info: Source file: <boxplot.eps>
 (epstopdf)                    date: 2019-04-02 04:56:39
 (epstopdf)                    size: 26625 bytes
@@ -796,16 +824,17 @@ Package epstopdf Info: Source file: <boxplot.eps>
 (epstopdf)                    size: 17982 bytes
 (epstopdf)             Command: <epstopdf --outfile=boxplot-eps-converted-to.pd
 f boxplot.eps>
-(epstopdf)             \includegraphics on input line 276.
+(epstopdf)             \includegraphics on input line 278.
 Package epstopdf Info: Output file is already uptodate.
 
-<boxplot-eps-converted-to.pdf, id=179, 578.16pt x 433.62pt>
+<boxplot-eps-converted-to.pdf, id=109, 578.16pt x 433.62pt>
 File: boxplot-eps-converted-to.pdf Graphic file (type pdf)
 
 <use boxplot-eps-converted-to.pdf>
-Package pdftex.def Info: boxplot-eps-converted-to.pdf used on input line 276.
+Package pdftex.def Info: boxplot-eps-converted-to.pdf used on input line 278.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
- [12 <./simultaneoustukeyvertices-eps-converted-to.pdf>]
+ [8 <./boxplotalgoritmofm-eps-converted-to.pdf>] [9 <./boxplotvertices-eps-conv
+erted-to.pdf>]
 Package epstopdf Info: Source file: <boxplotdensidad.eps>
 (epstopdf)                    date: 2019-04-02 04:46:41
 (epstopdf)                    size: 23693 bytes
@@ -814,15 +843,15 @@ Package epstopdf Info: Source file: <boxplotdensidad.eps>
 (epstopdf)                    size: 15844 bytes
 (epstopdf)             Command: <epstopdf --outfile=boxplotdensidad-eps-convert
 ed-to.pdf boxplotdensidad.eps>
-(epstopdf)             \includegraphics on input line 300.
+(epstopdf)             \includegraphics on input line 302.
 Package epstopdf Info: Output file is already uptodate.
 
-<boxplotdensidad-eps-converted-to.pdf, id=223, 432.61626pt x 322.20375pt>
+<boxplotdensidad-eps-converted-to.pdf, id=174, 432.61626pt x 322.20375pt>
 File: boxplotdensidad-eps-converted-to.pdf Graphic file (type pdf)
 
 <use boxplotdensidad-eps-converted-to.pdf>
 Package pdftex.def Info: boxplotdensidad-eps-converted-to.pdf used on input lin
-e 300.
+e 302.
 (pdftex.def)             Requested size: 259.57176pt x 193.32373pt.
 Package epstopdf Info: Source file: <simultaneoustukeydensidad.eps>
 (epstopdf)                    date: 2019-04-02 04:46:41
@@ -833,45 +862,95 @@ Package epstopdf Info: Source file: <simultaneoustukeydensidad.eps>
 (epstopdf)                    size: 20501 bytes
 (epstopdf)             Command: <epstopdf --outfile=simultaneoustukeydensidad-e
 ps-converted-to.pdf simultaneoustukeydensidad.eps>
-(epstopdf)             \includegraphics on input line 324.
+(epstopdf)             \includegraphics on input line 326.
 Package epstopdf Info: Output file is already uptodate.
 
-<simultaneoustukeydensidad-eps-converted-to.pdf, id=224, 634.37pt x 398.48875pt
+<simultaneoustukeydensidad-eps-converted-to.pdf, id=175, 634.37pt x 398.48875pt
 >
 File: simultaneoustukeydensidad-eps-converted-to.pdf Graphic file (type pdf)
  <use simultaneoustukeydensidad-eps-converted-to.pdf>
 Package pdftex.def Info: simultaneoustukeydensidad-eps-converted-to.pdf used on
- input line 324.
+ input line 326.
 (pdftex.def)             Requested size: 380.62492pt x 227.04997pt.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 338.
- [13 <./boxplot-eps-converted-to.pdf>] [14 <./simultaneoustukeydensidad-eps-con
-verted-to.pdf> <./boxplotdensidad-eps-converted-to.pdf>] [15]
-No file Tarea4.bbl.
-(Tarea4.aux
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 340.
+ [10 <./simultaneoustukeyvertices-eps-converted-to.pdf>] [11 <./boxplot-eps-con
+verted-to.pdf>] [12 <./simultaneoustukeydensidad-eps-converted-to.pdf> <./boxpl
+otdensidad-eps-converted-to.pdf>] (Tarea4.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+[]\OT1/cmr/m/n/10 Desarrolladores de Net-workX.  $\OT1/cmtt/m/n/10 https : / / 
+networkx . github . io / documentation / stable /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+\OT1/cmtt/m/n/10 reference / generated / networkx . generators . random _ graph
+s . erdos _ renyi _ graph . html #
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
+[]\OT1/cmr/m/n/10 Desarrolladores de Net-workX.  $\OT1/cmtt/m/n/10 https : / / 
+networkx . github . io / documentation / stable /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
+\OT1/cmtt/m/n/10 reference / generated / networkx . generators . random _ graph
+s . fast _ gnp _ random _ graph .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
+[]\OT1/cmr/m/n/10 Desarrolladores de Net-workX.  $\OT1/cmtt/m/n/10 https : / / 
+networkx . github . io / documentation / stable /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
+\OT1/cmtt/m/n/10 reference / generated / networkx . generators . random _ graph
+s . binomial _ graph . html #
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+[]\OT1/cmr/m/n/10 Desarrolladores de Net-workX.  $\OT1/cmtt/m/n/10 https : / / 
+networkx . github . io / documentation / stable /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+\OT1/cmtt/m/n/10 reference / algorithms / generated / networkx . algorithms . f
+low . maximum _ flow . html #
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 40--44
+[]\OT1/cmr/m/n/10 Desarrolladores Net-workX.  $\OT1/cmtt/m/n/10 https : / / net
+workx . github . io / documentation / networkx-[]1 . 10 /
+ []
+
+) [13] (Tarea4.aux
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
 )
-
-LaTeX Warning: There were undefined references.
-
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5103 strings out of 493323
- 67272 string characters out of 3141224
- 590966 words of memory out of 3000000
- 8553 multiletter control sequences out of 15000+200000
+ 5585 strings out of 493323
+ 74370 string characters out of 3141224
+ 677299 words of memory out of 3000000
+ 9020 multiletter control sequences out of 15000+200000
  9120 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,10n,43p,633b,1742s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,10n,43p,626b,1865s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program
  Files/basic/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/basic/
 fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/basic/fonts/type1
 /public/amsfonts/cm/cmmi10.pfb><C:/Program Files/basic/fonts/type1/public/amsfo
-nts/cm/cmmi7.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmmi8.p
+nts/cm/cmmi6.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmmi8.p
 fb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
  Files/basic/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/basic/f
 onts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/basic/fonts/type1/pub
@@ -882,9 +961,9 @@ basic/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/basic/fonts/ty
 pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/basic/fonts/type1/public/am
 sfonts/cm/cmti8.pfb><C:/Program Files/basic/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb>
-Output written on Tarea4.pdf (15 pages, 378834 bytes).
+Output written on Tarea4.pdf (13 pages, 386024 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
+ 382 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
