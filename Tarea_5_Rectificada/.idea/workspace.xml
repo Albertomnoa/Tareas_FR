@@ -11,7 +11,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/GitHub1/Tareas_FR/Tarea_4/test2.py">
+        <entry file="file://$PROJECT_DIR$/../Tarea_4/test2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
@@ -25,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/histogram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
+            <state relative-caret-position="629">
               <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -35,9 +35,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/Histograma.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Leer_grafo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
+            <state relative-caret-position="2448">
               <caret line="154" column="2" selection-start-line="154" selection-start-column="2" selection-end-line="154" selection-end-column="2" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -49,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnalisisE.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="28" />
+            <state relative-caret-position="425">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -59,9 +70,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/GitHub1/Tareas_FR/Tarea_4/Analisis_datos.py">
+        <entry file="file://$PROJECT_DIR$/../Tarea_4/Analisis_datos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="646">
               <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -73,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Analisis_datos1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
+            <state relative-caret-position="425">
+              <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -85,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generar_g.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
+            <state relative-caret-position="34">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -95,9 +106,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/GitHub1/Tareas_FR/Tarea_4/generar figuras.py">
+        <entry file="file://$PROJECT_DIR$/../Tarea_4/generar figuras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-154">
+            <state>
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -106,7 +117,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/GitHub1/Tareas_FR/Tarea_3/Genera_grafos.py">
+        <entry file="file://$PROJECT_DIR$/../Tarea_3/Genera_grafos.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
@@ -133,15 +144,18 @@
       <replace>weight0</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="E:/tarea  flujo redes/TareaFR4/GenerarG.py" />
-        <option value="E:/GitHub1/Tareas_FR/Tarea_2/Graf4.py" />
-        <option value="E:/GitHub1/Tareas_FR/Tarea_2/Graf2.py" />
-        <option value="E:/GitHub1/Tareas_FR/Tarea_4/Analisis_datos.py" />
-        <option value="E:/GitHub1/Tareas_FR/Tarea_4/Analisis_datos1.py" />
-        <option value="E:/GitHub1/Tareas_FR/Tarea_4/test.py" />
+        <option value="$PROJECT_DIR$/../Tarea_2/Graf4.py" />
+        <option value="$PROJECT_DIR$/../Tarea_2/Graf2.py" />
+        <option value="$PROJECT_DIR$/../Tarea_4/Analisis_datos.py" />
+        <option value="$PROJECT_DIR$/../Tarea_4/Analisis_datos1.py" />
+        <option value="$PROJECT_DIR$/../Tarea_4/test.py" />
         <option value="$PROJECT_DIR$/AnalisisE.py" />
         <option value="$PROJECT_DIR$/Generar_g.py" />
         <option value="$PROJECT_DIR$/leer_grafo.py" />
@@ -157,6 +171,7 @@
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -272,11 +287,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/GitHub1/Tareas_FR/Tarea_4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Tarea_4" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:/GitHub1/Tareas_FR/Tarea_4/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Tarea_4/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,7 +325,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2247191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -410,7 +424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_2/Graf1.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_2/Graf1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -419,7 +433,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_2/Graf5.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_2/Graf5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -428,7 +442,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_2/Graf6.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_2/Graf6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="48" />
@@ -438,7 +452,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_2/Graf7.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_2/Graf7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="23" column="95" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="95" />
@@ -448,7 +462,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_2/Graf8.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_2/Graf8.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="29" column="79" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="79" />
@@ -458,7 +472,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_2/Graf9.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_2/Graf9.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="32" column="61" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="61" />
@@ -468,7 +482,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_4/GenerarG.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_4/GenerarG.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1121">
           <caret line="11" column="47" selection-end-line="96" selection-end-column="52" />
@@ -478,7 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_2/Graf4.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_2/Graf4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" column="71" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="71" />
@@ -488,7 +502,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_2/Graf3.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_2/Graf3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="24" column="42" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="42" />
@@ -498,7 +512,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_2/Graf2.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_2/Graf2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="19" column="76" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="76" />
@@ -522,7 +536,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_3/Corer_Algoritmos.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_3/Corer_Algoritmos.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="166" selection-start-line="166" selection-end-line="166" />
@@ -532,7 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_4/Generar_datos.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_4/Generar_datos.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-103">
           <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="41" />
@@ -542,8 +556,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_4/Analisis_datos1.py" />
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_4/test.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_4/Analisis_datos1.py" />
+    <entry file="file://$PROJECT_DIR$/../Tarea_4/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
@@ -553,7 +567,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_4/test2.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_4/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
@@ -563,38 +577,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_3/Genera_grafos.py">
+    <entry file="file://$PROJECT_DIR$/histogram.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_4/generar figuras.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AnalisisE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="28" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generar_g.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="629">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -603,7 +589,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Leer_grafo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
+        <state relative-caret-position="2448">
           <caret line="154" column="2" selection-start-line="154" selection-start-column="2" selection-end-line="154" selection-end-column="2" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -611,19 +597,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/histogram.py">
+    <entry file="file://$PROJECT_DIR$/AnalisisE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        <state relative-caret-position="425">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/GitHub1/Tareas_FR/Tarea_4/Analisis_datos.py">
+    <entry file="file://$PROJECT_DIR$/../Tarea_4/Analisis_datos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="646">
           <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -631,10 +617,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generar_g.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Tarea_4/generar figuras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Tarea_3/Genera_grafos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Histograma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Analisis_datos1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        <state relative-caret-position="425">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
